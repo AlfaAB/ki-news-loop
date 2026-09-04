@@ -1,5 +1,27 @@
 {
   "dedupe_window_weeks": 8,
   "max_history_entries": 30,
-  "entries": []
+  "entries": [
+    {
+      "iso_week": "2026-W36",
+      "sent_date": "2026-09-04",
+      "items": [
+        {
+          "title": "OpenAI veröffentlicht neues Flaggschiff-Modell Astra – mächtig, aber umstritten",
+          "short_id": "openai-astra-launch",
+          "source_url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/"
+        },
+        {
+          "title": "Google schenkt Studierenden ein Jahr Gemini AI Pro/Plus und startet neuen Student Hub",
+          "short_id": "google-gemini-student-hub",
+          "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/"
+        },
+        {
+          "title": "Google Assistant wird abgeschaltet – Gemini übernimmt auf Android",
+          "short_id": "google-assistant-shutdown",
+          "source_url": "https://9to5google.com/2026/08/04/google-assistant-september-2026-shutdown/"
+        }
+      ]
+    }
+  ]
 }
