@@ -17,6 +17,13 @@ Orchestrator EINEN Fokusbereich zugewiesen (einen von drei):
    Finanzen, Kommunikation, Workflow-Automatisierung (z.B. n8n/Zapier + KI), Browser-
    Agenten, Sprachassistenten, alles was Zeit spart oder Aufgaben abnimmt.
 
+Achte in allen drei Fokusbereichen bewusst nicht nur auf große Modell-Releases und
+Schlagzeilen, sondern sammle auch kleinere, aber genuine neue Tools/Apps, die ein
+konkretes Alltagsproblem lösen (z.B. Diktier-/Voice-to-Text-Apps wie Wispr Flow,
+Präsentations-Assistenz-Tools, kleine Browser-Add-ons, Automatisierungs-Helfer). Diese
+werden später eventuell für eine separate "Tools & Alltagshelfer"-Rubrik verwendet,
+auch wenn sie es nicht in die Top 3 der Woche schaffen.
+
 ## Vorgehen
 
 1. Ermittle das aktuelle Datum und suche gezielt nach Entwicklungen der letzten 7 Tage
