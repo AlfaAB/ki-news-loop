@@ -14,10 +14,26 @@ als "gesendet" markiert werden -> siehe ROUTINE_PROMPT.md).
 import argparse
 import os
 import smtplib
+import socket
 import sys
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.utils import formataddr
+
+# Manche Cloud-Sandboxes haben kein funktionierendes IPv6, obwohl die DNS-Antwort
+# eine IPv6-Adresse enthaelt. Python versucht dann zuerst IPv6 und scheitert mit
+# "Address family not supported by protocol" (errno 97), noch bevor IPv4 probiert
+# wird. Fix: getaddrinfo global auf IPv4-Ergebnisse beschraenken.
+_orig_getaddrinfo = socket.getaddrinfo
+
+
+def _ipv4_only_getaddrinfo(*args, **kwargs):
+    results = _orig_getaddrinfo(*args, **kwargs)
+    ipv4_results = [r for r in results if r[0] == socket.AF_INET]
+    return ipv4_results or results
+
+
+socket.getaddrinfo = _ipv4_only_getaddrinfo
 
 
 def env_or_die(name: str) -> str:
@@ -53,7 +69,6 @@ def main() -> int:
     msg["From"] = formataddr((from_name, smtp_user))
     msg["To"] = email_to
 
-    # Einfache Text-Alternative, falls der Email-Client kein HTML rendert
     plain_fallback = (
         "Dein KI-Update ist als HTML formatiert. "
         "Falls dein Email-Programm kein HTML anzeigt, oeffne die angehaengte HTML-Datei "
@@ -69,7 +84,7 @@ def main() -> int:
             server.ehlo()
             server.login(smtp_user, smtp_pass)
             server.sendmail(smtp_user, [email_to], msg.as_string())
-    except Exception as exc:  # noqa: BLE001 - wir wollen jeden SMTP-Fehler sichtbar machen
+    except Exception as exc:  # noqa: BLE001
         print(f"FEHLER beim SMTP-Versand: {exc}", file=sys.stderr)
         return 1
 
