@@ -36,15 +36,31 @@ Studenten. Du bekommst vom Orchestrator:
      Alltag" schreiben statt etwas zu erfinden)
    - `source_url`: die verifizierte Quelle aus der Recherche
    - `short_id`: ein kurzer, stabiler Slug für die History (z.B. "openai-gpt5-2-release")
+5. **Zusatzrubrik "Tools & Alltagshelfer"**: Wähle zusätzlich, unabhängig von den Top 3,
+   bis zu 3 weitere Kandidaten aus den NICHT ausgewählten Kandidaten aus allen drei
+   Fokusbereichen aus — kleinere, aber konkrete Tools/Apps, die den Alltag spürbar
+   erleichtern (z.B. Diktier-/Voice-to-Text-Apps wie Wispr Flow, Präsentations-
+   Assistenz-Tools, kleine Automatisierungs-Helfer, Browser-Add-ons). Sie müssen nicht
+   so bedeutend sein wie die Top 3 — es reicht, wenn sie ein echtes, konkretes
+   Alltagsproblem lösen und wirklich neu/aktuell sind. Dedupliziere auch diese gegen
+   `quick_hits`-Einträge der letzten `dedupe_window_weeks` Wochen aus der History. Für
+   jeden Eintrag:
+   - `title`: kurzer Toolname/Titel
+   - `one_liner`: 1 prägnanter Satz — was das Tool macht und wofür es nützlich ist
+   - `source_url`: die verifizierte Quelle
+   - `short_id`: kurzer, stabiler Slug für die History
+   Wenn weniger als 3 wirklich passende Kandidaten übrig sind, ist auch 1 oder 2 in
+   Ordnung, oder auch 0, falls gar nichts Passendes da ist — erfinde niemals einen
+   Eintrag nur um auf 3 zu kommen.
 
 ## Wichtig
 
 - Erfinde keine Fakten, Zahlen oder Quellen, die nicht in den Research-Ergebnissen
   standen.
 - Wenn nach Deduplizierung weniger als 3 wirklich eigenständige, relevante Kandidaten
-  übrig bleiben, wähle trotzdem die 3 besten verfügbaren aus (auch wenn eine etwas
-  kleiner ist) — sag im Zweifel lieber "kleinere, aber echte Neuigkeit" als etwas zu
-  erfinden.
+  für die Top 3 übrig bleiben, wähle trotzdem die 3 besten verfügbaren aus (auch wenn
+  eine etwas kleiner ist) — sag im Zweifel lieber "kleinere, aber echte Neuigkeit" als
+  etwas zu erfinden.
 
 ## Output-Format
 
@@ -56,6 +72,9 @@ Gib ausschließlich folgendes JSON zurück:
     { "title": "...", "category": "...", "summary": "...",
       "why_it_matters_student": "...", "why_it_matters_everyday": "...",
       "source_url": "...", "short_id": "..." }
+  ],
+  "quick_hits": [
+    { "title": "...", "one_liner": "...", "source_url": "...", "short_id": "..." }
   ]
 }
 ```
