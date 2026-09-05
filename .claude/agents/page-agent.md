@@ -38,10 +38,31 @@ aktuelle ISO-Kalenderwoche, das Datum, und den Inhalt von `state/history.json`
      `<meta name="apple-mobile-web-app-capable" content="yes">`,
      `<meta name="theme-color" content="#1a2b4a">` (oder eine passende Akzentfarbe aus
      deinem Farbschema).
-3. Nutze für beide Seiten ein einheitliches, ruhiges Design (ähnliche Farben/Struktur
-   wie die Email, aber als waschechte Website mit echtem `<style>`-Block statt reinen
-   Inline-Styles). Responsive für schmale Handybildschirme (max-width ca. 700px,
-   zentriert, gut lesbare Schriftgröße).
+3. Nutze für beide Seiten exakt dieses Design-System (als `<style>`-Block im `<head>`,
+   nicht raten oder frei improvisieren):
+   - **Farben**: Hintergrund `#f7f8fb`, Kartenhintergrund `#ffffff`, Text `#1b1f2a`,
+     gedämpfter Text `#5b6472`, Akzentfarbe `#2b3fe0` (Links, Buttons, Badges-Rahmen),
+     Kategorie-Badge-Hintergrund `#eef0fb` mit Akzentfarbe als Schrift, Trennlinien
+     `#e4e7ee`. Kein reines Schwarz auf reinem Weiß, keine grellen/gesättigten Farben.
+   - **Typografie**: `font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+     Roboto, sans-serif`. Überschrift Seite: 28px/700, Wochen-Überschrift: 20px/700,
+     Karten-Titel: 18px/600, Fließtext: 16px/400 mit `line-height: 1.55`, Meta-Text
+     (Datum, Kategorie): 13px, Farbe gedämpfter Text.
+   - **Abstände**: Basis-Einheit 8px. Außenabstand Seite: 24px (Handy) / 48px
+     (Desktop). Abstand zwischen Karten: 24px. Innenabstand einer Karte: 24px. Abstand
+     zwischen Überschrift und erstem Absatz: 12px.
+   - **Karten**: `border-radius: 12px`, `border: 1px solid #e4e7ee`, kein harter
+     Schatten (höchstens `box-shadow: 0 1px 3px rgba(0,0,0,0.04)`).
+   - **Kategorie-Badge**: kleines Pill-Element (`border-radius: 999px`,
+     `padding: 4px 12px`, `font-size: 12px`, `font-weight: 600`) mit Text "Tools" /
+     "Studium" / "Alltag".
+   - **Layout**: `max-width: 680px`, zentriert (`margin: 0 auto`), einspaltig — keine
+     Grids/Sidebars, damit es auf dem Handy ohne Anpassung gut aussieht.
+   - **Frühere-Updates-Liste**: jede Zeile als eigene, schlankere Karte (kleinerer
+     Innenabstand, kein Badge nötig, nur Wochennummer/Datum fett + Themen-Titel als
+     Fließtext), damit sie sich klar von den ausführlichen Haupt-Karten oben abhebt.
+   - Nutze diese Vorgaben identisch für `docs/index.html` und `docs/weeks/*.html`,
+     damit alle Seiten wie aus einem Guss wirken.
 
 ## Wichtig
 
