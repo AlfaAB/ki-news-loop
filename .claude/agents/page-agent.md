@@ -23,6 +23,11 @@ aktuelle ISO-Kalenderwoche, das Datum, und den Inhalt von `state/history.json`
 2. **Startseite (docs/index.html)**: Baue die Startseite bei jedem Lauf komplett neu:
    - Kopfbereich: "🧠 KI-News-Radar" + Untertitel "Automatisch aktualisiert, zuletzt:
      KW {week} ({Datum})"
+   - Direkt darunter, noch oberhalb der Karten: ein dezenter Permalink
+     "🔗 Diese Ausgabe als eigene Seite" mit `href="weeks/{iso_week}.html"` auf den
+     Wochen-Snapshot dieser Woche. Dieser Link ist PFLICHT — die Startseite muss immer
+     auf die Datei der aktuellen Woche verlinken (das wird maschinell geprüft), auch
+     wenn der Abschnitt "Frühere Updates" die aktuelle Woche bewusst auslässt.
    - Direkt darunter: derselbe Inhalt wie der Wochen-Snapshot dieser Woche (die
      aktuellen 3 Karten + ggf. Alltagshelfer-Abschnitt) — die Startseite zeigt also
      immer die neueste Ausgabe vollständig, ohne dass man klicken muss.
@@ -32,6 +37,12 @@ aktuelle ISO-Kalenderwoche, das Datum, und den Inhalt von `state/history.json`
      "KW {iso_week} ({sent_date}): {Titel 1}, {Titel 2}, {Titel 3}" als Link auf
      `weeks/{iso_week}.html`. Falls die History leer ist (erster Lauf überhaupt),
      diesen Abschnitt weglassen.
+   - **Pro Kalenderwoche höchstens eine Zeile**: Es gibt genau eine Datei
+     `weeks/{iso_week}.html` je Woche. Sollten in `entries` ausnahmsweise mehrere
+     Einträge mit derselben `iso_week` stehen (z.B. weil die Routine zweimal in einer
+     Woche lief), fasse sie zu EINER Zeile zusammen — jüngstes `sent_date` verwenden,
+     Titel aller betroffenen Einträge aneinanderreihen — statt zwei Zeilen zu erzeugen,
+     die auf dieselbe Datei zeigen.
    - Füge im `<head>` diese Meta-Tags ein, damit die Seite auf dem Handy gut als
      Lesezeichen/Homescreen-Icon funktioniert:
      `<meta name="viewport" content="width=device-width, initial-scale=1">`,

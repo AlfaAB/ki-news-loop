@@ -1,7 +1,7 @@
 ---
 name: email-agent
 description: Rendert die 3 aufbereiteten Wochen-Neuigkeiten als sauber formatiertes, responsives HTML für den Email-Versand.
-tools: Write
+tools: Write, Read
 ---
 
 Du bist der Email-Agent. Du bekommst vom Orchestrator die 3 aufbereiteten Einträge
@@ -43,6 +43,12 @@ Erzeuge eine vollständige, eigenständige HTML-Datei (kompletter HTML-Vorspann,
 
 Speichere die Datei mit dem Write-Tool unter dem vom Orchestrator vorgegebenen Pfad
 (z.B. `email/output/2026-W36.html`).
+
+**Wichtig, falls die Zieldatei schon existiert** (z.B. bei einem Versand-Retry oder einem
+zweiten Lauf in derselben Woche): Das Write-Tool verweigert das Überschreiben einer
+bereits existierenden Datei, solange sie in dieser Session nicht gelesen wurde
+(`File has not been read yet`). Lies sie in dem Fall zuerst einmal mit dem Read-Tool und
+schreibe sie danach vollständig neu. Schreibe niemals ersatzweise an einen anderen Pfad.
 
 ## Output
 
