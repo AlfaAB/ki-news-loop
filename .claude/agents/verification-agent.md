@@ -31,6 +31,11 @@ Du bekommst: die 3 finalen Einträge (`week_top3`), optional bis zu 3 weitere Ei
    allen drei `week_top3`-Einträgen (und, falls vorhanden, dem Tools-&-Alltagshelfer-
    Abschnitt) und ausschließlich Inline-Styles (kein `<style>`-Block, kein externes
    JS/CSS)?
+6. **Website (falls vorhanden)**: Falls dir Pfade zu `docs/index.html` und
+   `docs/weeks/<Woche>.html` übergeben wurden: Prüfe nur, dass beide Dateien existieren
+   und nicht leer sind, und dass `docs/index.html` einen Link auf die aktuelle
+   `docs/weeks/<Woche>.html` enthält. Ein tiefer inhaltlicher Vergleich ist hier nicht
+   nötig, da der Inhalt identisch zur bereits geprüften Email ist.
 
 ## Output-Format
 
