@@ -4,7 +4,7 @@
   "entries": [
     {
       "iso_week": "2026-W36",
-      "sent_date": "2026-09-04",
+      "sent_date": "2026-09-05",
       "items": [
         {
           "title": "OpenAI veröffentlicht neues Flaggschiff-Modell Astra – mächtig, aber umstritten",
@@ -20,6 +20,38 @@
           "title": "Google Assistant wird abgeschaltet – Gemini übernimmt auf Android",
           "short_id": "google-assistant-shutdown",
           "source_url": "https://9to5google.com/2026/08/04/google-assistant-september-2026-shutdown/"
+        },
+        {
+          "title": "Google bringt Sprachsteuerung in Gmail, Docs und Keep",
+          "short_id": "google-live-voice-gmail-docs-keep",
+          "source_url": "https://techcrunch.com/2026/09/03/google-launches-ai-voice-features-in-gmail-docs-and-keep/"
+        },
+        {
+          "title": "Anthropic öffnet Claude Campus Ambassador Program – Bewerbungsschluss 12. September",
+          "short_id": "anthropic-claude-campus-ambassador",
+          "source_url": "https://claude.com/programs/campus"
+        },
+        {
+          "title": "Android Feature Drop: Gemini merkt sich, wo Dinge liegen",
+          "short_id": "android-feature-drop-september-2026",
+          "source_url": "https://blog.google/products-and-platforms/platforms/android/android-drop-september-2026/"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "Alexa for Shopping prüft Betrugsnachrichten",
+          "short_id": "amazon-alexa-scam-check",
+          "source_url": "https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam/"
+        },
+        {
+          "title": "Sourclip",
+          "short_id": "sourclip-2-research-workspace",
+          "source_url": "https://www.sourclip.com/"
+        },
+        {
+          "title": "Google AI Educator Series: neues Modul zu Gemini Deep Research",
+          "short_id": "google-ai-educator-deep-research-modul",
+          "source_url": "https://blog.google/products-and-platforms/products/education/new-ai-educator-trainings-september-2026/"
         }
       ]
     }

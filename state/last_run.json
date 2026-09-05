@@ -1,6 +1,6 @@
 {
-  "last_sent_iso_week": null,
-  "last_sent_at": null,
-  "last_status": null,
-  "last_attempted_iso_week": null
+  "last_sent_iso_week": "2026-W36",
+  "last_sent_at": "2026-09-05T21:04:24+02:00",
+  "last_status": "success",
+  "last_attempted_iso_week": "2026-W36"
 }
