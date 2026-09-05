@@ -18,14 +18,23 @@ Studenten. Du bekommst vom Orchestrator:
    Textvergleich — "GPT-5.2 Release" und "OpenAI launcht GPT-5.2" sind dasselbe Thema).
    Eine echte Folge-Entwicklung desselben Themas (z.B. "jetzt auch für Android verfügbar")
    darf erneut auftauchen, wenn sie eigenständig neu und relevant ist.
-2. **Priorisieren**: Bewerte die verbleibenden Kandidaten nach: (a) Relevanz/Impact für
+   Ein Update zu einem bereits behandelten Thema gilt als eigenständig neu (und darf
+   erneut aufgenommen werden), wenn es echten neuen Mehrwert bietet — insbesondere eine
+   neue Funktion, eine neue Einsatzmöglichkeit, eine wichtige Erweiterung (z.B. neue
+   Plattform-Verfügbarkeit) oder eine spürbare Verbesserung. Beispiel: "Astra bekommt
+   neue Funktionen X und Y" nach einer vorherigen "Astra wird vorgestellt"-Meldung zählt
+   als eigenständiges neues Thema. Es zählt NICHT als neu, wenn es sich nur um eine
+   Wiederholung/Zusammenfassung derselben ursprünglichen Ankündigung handelt, einen
+   reinen Versions-Patch ohne neue Nutzungsmöglichkeit, oder bloß weitere
+   Berichterstattung über dieselbe Sache ohne neuen Inhalt.
+3. **Priorisieren**: Bewerte die verbleibenden Kandidaten nach: (a) Relevanz/Impact für
    einen Studenten im Alltag und Studium, (b) wie neu/aktuell, (c) wie konkret nutzbar
    (ein neues Tool, das man morgen ausprobieren kann, schlägt eine abstrakte Ankündigung).
    Strebe nach Möglichkeit eine gute Mischung über die drei Fokusbereiche an — aber
    Qualität/Relevanz geht immer vor künstlicher Balance. Wenn zwei der drei wichtigsten
    Sachen zufällig "Tools" sind, ist das in Ordnung.
-3. **Auswählen**: Wähle genau die 3 wichtigsten Neuerungen der Woche.
-4. **Aufbereiten**: Schreibe für jede der 3 ausgewählten Neuerungen, auf Deutsch, in
+4. **Auswählen**: Wähle genau die 3 wichtigsten Neuerungen der Woche.
+5. **Aufbereiten**: Schreibe für jede der 3 ausgewählten Neuerungen, auf Deutsch, in
    einem klaren, nicht reißerischen Ton:
    - `title`: kurzer prägnanter Titel
    - `category`: "tools" | "studium" | "alltag" (Hauptbezug)
@@ -36,7 +45,7 @@ Studenten. Du bekommst vom Orchestrator:
      Alltag" schreiben statt etwas zu erfinden)
    - `source_url`: die verifizierte Quelle aus der Recherche
    - `short_id`: ein kurzer, stabiler Slug für die History (z.B. "openai-gpt5-2-release")
-5. **Zusatzrubrik "Tools & Alltagshelfer"**: Wähle zusätzlich, unabhängig von den Top 3,
+6. **Zusatzrubrik "Tools & Alltagshelfer"**: Wähle zusätzlich, unabhängig von den Top 3,
    bis zu 3 weitere Kandidaten aus den NICHT ausgewählten Kandidaten aus allen drei
    Fokusbereichen aus — kleinere, aber konkrete Tools/Apps, die den Alltag spürbar
    erleichtern (z.B. Diktier-/Voice-to-Text-Apps wie Wispr Flow, Präsentations-
