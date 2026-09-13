@@ -54,6 +54,44 @@
           "source_url": "https://blog.google/products-and-platforms/products/education/new-ai-educator-trainings-september-2026/"
         }
       ]
+    },
+    {
+      "iso_week": "2026-W37",
+      "sent_date": "2026-09-13",
+      "items": [
+        {
+          "title": "Gemini-Desktop-App für Windows: KI per Alt+Space über jedem Programm",
+          "short_id": "gemini-desktop-windows",
+          "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/"
+        },
+        {
+          "title": "Meta startet \"Muse\" – persönlicher KI-Agent, der Aufgaben wirklich ausführt",
+          "short_id": "meta-muse-personal-agent",
+          "source_url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/"
+        },
+        {
+          "title": "25 Fields-Medaillen-Träger warnen vor KI in der Mathematik",
+          "short_id": "fields-medalists-ai-math-warning",
+          "source_url": "https://the-decoder.com/leading-mathematicians-fear-ai-is-making-their-field-dumber-and-warn-the-rest-of-us-is-next/"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "Loqua",
+          "short_id": "loqua-voice-typing",
+          "source_url": "https://www.theloqua.ai/"
+        },
+        {
+          "title": "ChatGPT: Geplante Aufgaben per Webhook",
+          "short_id": "chatgpt-scheduled-tasks-webhooks",
+          "source_url": "https://releasebot.io/updates/openai/chatgpt"
+        },
+        {
+          "title": "Switch",
+          "short_id": "switch-agents-in-team-chat",
+          "source_url": "https://www.producthunt.com/products/switch-11"
+        }
+      ]
     }
   ]
 }
