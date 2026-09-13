@@ -44,7 +44,15 @@ Studenten. Du bekommst vom Orchestrator:
      Automatisierung (falls kaum Alltagsbezug besteht, kurz "eher nischig für den
      Alltag" schreiben statt etwas zu erfinden)
    - `source_url`: die verifizierte Quelle aus der Recherche
-   - `short_id`: ein kurzer, stabiler Slug für die History (z.B. "openai-gpt5-2-release")
+   - `short_id`: ein kurzer, stabiler Slug für die History (z.B. "openai-gpt5-2-release"),
+     nur Kleinbuchstaben, Ziffern und Bindestriche
+   - `source_name` (optional): Name der Publikation oder Website der Quelle, so wie sie
+     sich selbst nennt, z.B. "TechCrunch" oder "Google Blog". Weglassen, wenn unklar.
+   - `tags` (optional): 2-4 kurze, kleingeschriebene Stichworte, z.B.
+     `["gemini", "windows"]`. Sie machen die Suche auf Antons Website treffsicherer.
+   - `deadline` (optional): nur wenn die Quelle eine konkrete Frist nennt, bis zu der
+     man selbst handeln muss (Bewerbung, Anmeldung, Ende eines Angebots), im Format
+     `YYYY-MM-DD`. Sonst weglassen. Die Website zeigt dann eine Frist-Markierung.
 6. **Zusatzrubrik "Tools & Alltagshelfer"**: Wähle zusätzlich, unabhängig von den Top 3,
    bis zu 3 weitere Kandidaten aus den NICHT ausgewählten Kandidaten aus allen drei
    Fokusbereichen aus — kleinere, aber konkrete Tools/Apps, die den Alltag spürbar
@@ -57,7 +65,9 @@ Studenten. Du bekommst vom Orchestrator:
    - `title`: kurzer Toolname/Titel
    - `one_liner`: 1 prägnanter Satz — was das Tool macht und wofür es nützlich ist
    - `source_url`: die verifizierte Quelle
-   - `short_id`: kurzer, stabiler Slug für die History
+   - `short_id`: kurzer, stabiler Slug für die History (Kleinbuchstaben, Ziffern,
+     Bindestriche)
+   - `source_name` und `tags` (optional): wie oben
    Wenn weniger als 3 wirklich passende Kandidaten übrig sind, ist auch 1 oder 2 in
    Ordnung, oder auch 0, falls gar nichts Passendes da ist — erfinde niemals einen
    Eintrag nur um auf 3 zu kommen.
@@ -65,25 +75,31 @@ Studenten. Du bekommst vom Orchestrator:
 ## Wichtig
 
 - Erfinde keine Fakten, Zahlen oder Quellen, die nicht in den Research-Ergebnissen
-  standen.
+  standen. Das gilt auch für `deadline`: nur eine Frist, die wörtlich in der Quelle
+  steht.
 - Wenn nach Deduplizierung weniger als 3 wirklich eigenständige, relevante Kandidaten
   für die Top 3 übrig bleiben, wähle trotzdem die 3 besten verfügbaren aus (auch wenn
   eine etwas kleiner ist) — sag im Zweifel lieber "kleinere, aber echte Neuigkeit" als
   etwas zu erfinden.
+- Verwende in `title` keine Gedankenstriche (– oder —), sondern Doppelpunkt oder Komma.
+  Die Titel stehen auf Antons Website in großer Schrift, dort wirken sie sonst unruhig.
 
 ## Output-Format
 
-Gib ausschließlich folgendes JSON zurück:
+Gib ausschließlich folgendes JSON zurück. Die als optional markierten Felder darfst
+du weglassen:
 
 ```json
 {
   "week_top3": [
     { "title": "...", "category": "...", "summary": "...",
       "why_it_matters_student": "...", "why_it_matters_everyday": "...",
-      "source_url": "...", "short_id": "..." }
+      "source_url": "...", "short_id": "...",
+      "source_name": "...", "tags": ["..."], "deadline": "YYYY-MM-DD" }
   ],
   "quick_hits": [
-    { "title": "...", "one_liner": "...", "source_url": "...", "short_id": "..." }
+    { "title": "...", "one_liner": "...", "source_url": "...", "short_id": "...",
+      "source_name": "...", "tags": ["..."] }
   ]
 }
 ```

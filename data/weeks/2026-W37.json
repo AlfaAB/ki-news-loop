@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "iso_week": "2026-W37",
+  "year": 2026,
+  "week": 37,
+  "sent_date": "2026-09-13",
+  "lead": "Gemini-Desktop-App für Windows: KI per Alt+Space über jedem Programm",
+  "items": [
+    {
+      "id": "gemini-desktop-windows",
+      "category": "tools",
+      "title": "Gemini-Desktop-App für Windows: KI per Alt+Space über jedem Programm",
+      "summary": "Google hat die Gemini-Desktop-App am 10. September global für Windows 10 und 11 veröffentlicht. Per Tastenkombination Alt + Space legt sich Gemini über das gerade geöffnete Programm – für schnelle Fragen, Umformulierungen oder Zusammenfassungen von Dokumenten, ohne den Tab oder das Fenster zu wechseln. Die App kann dabei auf Gmail und Google Drive zugreifen. Sie selbst lässt sich über gemini.google/desktop frei herunterladen; für Premium-Funktionen wie den Agenten Gemini Spark und die Videoerzeugung mit Gemini Omni ist laut Google ein kostenpflichtiges Google-AI-Abo nötig.",
+      "relevance": {
+        "studium": "Beim Lesen von PDFs, Schreiben in Word oder Recherchieren im Browser ist die KI-Hilfe einen Tastendruck entfernt, statt dass man Text in ein Browser-Tab kopieren muss.",
+        "alltag": "Schnell installiert und systemweit per Tastenkürzel erreichbar – damit wird KI vom separaten Dienst zu einem normalen Bestandteil des Desktop-Workflows."
+      },
+      "source": {
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
+        "name": "Google Blog"
+      },
+      "tags": [
+        "google",
+        "gemini",
+        "windows",
+        "desktop"
+      ]
+    },
+    {
+      "id": "meta-muse-personal-agent",
+      "category": "alltag",
+      "title": "Meta startet „Muse“: persönlicher KI-Agent, der Aufgaben wirklich ausführt",
+      "summary": "Meta hat am 8. September Muse gestartet: einen persönlichen KI-Agenten, der Aufgaben nicht nur bespricht, sondern selbst ausführt. Der Start erfolgt zunächst nur in den USA. Laut Sensor Tower verzeichnete die App seit dem Launch über 83.000 iOS-Downloads in den USA und stand am 10. September auf Platz 2 der US-App-Charts, nach zuvor Platz 4 — gemessen an früheren Meta-Starts ist das allerdings ein eher verhaltener Auftakt. Damit ist Muse einer der sichtbarsten Versuche, KI-Agenten vom Entwickler-Thema zum Massenprodukt zu machen.",
+      "relevance": {
+        "studium": "Zeigt, wohin sich Assistenten entwickeln: weg vom Chat, hin zum Ausführen lästiger Organisationsaufgaben – nützlich zu wissen, auch wenn der Start vorerst auf die USA begrenzt ist.",
+        "alltag": "Ein Agent eines großen Anbieters, der im Massenmarkt ankommt; in Deutschland ist er aber noch nicht verfügbar, und die Frage, wie viel Kontrolle über Konten und Daten man einem solchen Agenten abgibt, bleibt offen."
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+        "name": "TechCrunch"
+      },
+      "tags": [
+        "meta",
+        "agenten",
+        "app"
+      ]
+    },
+    {
+      "id": "fields-medalists-ai-math-warning",
+      "category": "studium",
+      "title": "25 Fields-Medaillen-Träger warnen vor KI in der Mathematik",
+      "summary": "Am 11./12. September veröffentlichten 25 Fields-Medaillen-Gewinner – darunter Terence Tao, Peter Scholze, Maryna Viazovska, Cédric Villani und Pierre Deligne – eine gemeinsame Erklärung auf mathandai.org. Sie sehen eine „severe misalignment“ zwischen den Zielen der KI-Labore und denen der Mathematik: Problemlösen sei nur Mittel zum Zweck, das eigentliche Ziel sei konzeptuelles Verständnis. Benchmark-getriebene Massenproduktion von Lösungen untergrabe genau das und schaffe zusätzlich Probleme bei der Zuschreibung von Ergebnissen und beim Kompetenzaufbau von Nachwuchsforschenden. Die Erklärung fiel in dieselbe Woche wie OpenAIs umstrittene Ankündigung eines KI-Beweises zum Navier-Stokes-Problem, zu dem ein Plagiatsvorwurf im Raum steht.",
+      "relevance": {
+        "studium": "Das Argument „das Ringen mit einem Problem ist Teil der Ausbildung“ lässt sich direkt auf das eigene Lernen übertragen und ist ein brauchbarer Maßstab dafür, wann KI-Hilfe sinnvoll ist und wann sie das Verständnis ersetzt.",
+        "alltag": "Eher nischig für den Alltag – aber ein nützlicher Gegenpol zur Erwartung, KI könne jede Denkarbeit abnehmen."
+      },
+      "source": {
+        "url": "https://the-decoder.com/leading-mathematicians-fear-ai-is-making-their-field-dumber-and-warn-the-rest-of-us-is-next/",
+        "name": "The Decoder"
+      },
+      "tags": [
+        "mathematik",
+        "forschung",
+        "lernen"
+      ]
+    }
+  ],
+  "quick_hits": [
+    {
+      "id": "loqua-voice-typing",
+      "title": "Loqua",
+      "summary": "Diktier-App für Mac und Windows, die gesprochenes Gestammel live als sauber interpunktierten, bei Bedarf strukturierten Text direkt am Cursor einfügt – inklusive Übersetzung in fast 100 Sprachen und Screenshot-Fragen per „Capture to Ask“.",
+      "source": {
+        "url": "https://www.theloqua.ai/",
+        "name": "theloqua.ai"
+      },
+      "tags": [
+        "diktieren",
+        "sprache"
+      ]
+    },
+    {
+      "id": "chatgpt-scheduled-tasks-webhooks",
+      "title": "ChatGPT: Geplante Aufgaben per Webhook",
+      "summary": "Scheduled Tasks in ChatGPT reagieren jetzt auf Ereignisse statt nur auf Uhrzeiten – etwa neue Gmail-Nachrichten, Slack-Kanalposts oder GitHub-Pull-Requests – und lassen sich teilen, womit einfache „wenn X, dann Y“-Automationen ohne Zapier möglich werden.",
+      "source": {
+        "url": "https://releasebot.io/updates/openai/chatgpt",
+        "name": "Releasebot"
+      },
+      "tags": [
+        "chatgpt",
+        "automatisierung"
+      ]
+    },
+    {
+      "id": "switch-agents-in-team-chat",
+      "title": "Switch",
+      "summary": "Kostenlose, self-hostbare Open-Source-Brücke von SandboxAQ, die beliebige KI-Agenten als benannte Teilnehmer in Slack, Teams, Discord oder Telegram holt – praktisch für Studiengruppen oder WG-Chats.",
+      "source": {
+        "url": "https://www.producthunt.com/products/switch-11",
+        "name": "Product Hunt"
+      },
+      "tags": [
+        "open source",
+        "agenten",
+        "chat"
+      ]
+    }
+  ]
+}

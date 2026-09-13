@@ -22,10 +22,12 @@ Erzeuge eine vollständige, eigenständige HTML-Datei (kompletter HTML-Vorspann,
 - Struktur:
   1. Kopfbereich: "🧠 KI-Update der Woche — KW {week}" + Datum, 1 Satz Intro
   2. Falls SITE_URL gesetzt ist: direkt darunter ein auffälliger, aber dezenter
-     Button/Link "🔗 Diese Ausgabe als Website ansehen" der auf
-     `{SITE_URL}weeks/<YYYY-Www>.html` verweist, plus einen kleineren Link darunter
-     "📚 Alle bisherigen Updates" der auf `{SITE_URL}` (die Startseite) verweist. Falls
-     SITE_URL nicht gesetzt ist, diesen Punkt einfach weglassen.
+     Button/Link "🔗 Diese Ausgabe auf der Website ansehen" der auf
+     `{SITE_URL}#/woche/<YYYY-Www>` verweist, plus einen kleineren Link darunter
+     "📚 Archiv aller Ausgaben" der auf `{SITE_URL}#/archiv` verweist. Übernimm die
+     Adressen exakt so, einschließlich `#`: Die Website arbeitet mit Hash-Routen, ohne
+     `#` landet der Link nur auf der Startseite. Falls SITE_URL nicht gesetzt ist,
+     diesen Punkt einfach weglassen.
   3. Für jeden der 3 `week_top3`-Einträge eine klar abgegrenzte "Karte" mit: Titel
      (als Link auf `source_url`), Kategorie-Badge (Tools / Studium / Alltag),
      `summary`, "🎓 Fürs Studium: {why_it_matters_student}", "🏠 Für den Alltag:

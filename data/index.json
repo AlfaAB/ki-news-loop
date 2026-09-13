@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "generated_at": "2026-09-13T12:34:58.363Z",
+  "weeks": [
+    {
+      "iso_week": "2026-W37",
+      "year": 2026,
+      "week": 37,
+      "sent_date": "2026-09-13",
+      "lead": "Gemini-Desktop-App für Windows: KI per Alt+Space über jedem Programm",
+      "item_count": 3,
+      "quick_hit_count": 3
+    },
+    {
+      "iso_week": "2026-W36",
+      "year": 2026,
+      "week": 36,
+      "sent_date": "2026-09-05",
+      "lead": "Google bringt Sprachsteuerung in Gmail, Docs und Keep",
+      "item_count": 3,
+      "quick_hit_count": 3
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "iso_week": "2026-W36",
+  "year": 2026,
+  "week": 36,
+  "sent_date": "2026-09-05",
+  "lead": "Google bringt Sprachsteuerung in Gmail, Docs und Keep",
+  "items": [
+    {
+      "id": "google-live-voice-gmail-docs-keep",
+      "category": "tools",
+      "title": "Google bringt Sprachsteuerung in Gmail, Docs und Keep",
+      "summary": "Google hat am 3. September die Funktionen „Gmail Live“, „Docs Live“ und „Keep Live“ ausgerollt. Damit lassen sich per Sprache Fragen zum Posteingang stellen, Dokumente diktieren oder ganze Entwürfe erzeugen lassen, mit Zugriff auf Gmail, Drive, Chat und Web, sowie Notizen und Listen freihändig anlegen. Die Features laufen auf iOS und Android, zunächst nur auf Englisch. Gmail Live ist für Google AI Plus/Pro/Ultra verfügbar, Docs Live und Keep Live für Pro/Ultra.",
+      "relevance": {
+        "studium": "Recherche-Notizen, Mail-Antworten an Dozierende oder erste Rohfassungen einer Hausarbeit lassen sich unterwegs einsprechen, statt sie am Laptop zu tippen.",
+        "alltag": "Freihändiges Erfassen von Einkaufslisten, To-dos und Terminmails, praktisch beim Kochen, Pendeln oder Sport; für DACH aktuell aber nur mit englischer Bedienung nutzbar."
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/09/03/google-launches-ai-voice-features-in-gmail-docs-and-keep/",
+        "name": "TechCrunch",
+        "published": "2026-09-03"
+      },
+      "tags": ["google", "gemini", "sprachsteuerung", "produktivität"]
+    },
+    {
+      "id": "anthropic-claude-campus-ambassador",
+      "category": "studium",
+      "title": "Anthropic öffnet Claude Campus Ambassador Program, Bewerbungsschluss 12. September",
+      "summary": "Anthropic hat am 1. September die Bewerbung für das Claude Campus Ambassador Program geöffnet. Es gibt drei Tracks: Claude Builder Club für Bachelor-Studierende, Campus Conversations für Master-Studierende und Claude Science Workshops für PhDs und Postdocs. Ausgewählte Ambassadors erhalten ein Stipendium von 3.600 USD, API-Credits und Zugang zu Anthropic-Speakern. Die Laufzeit geht von September 2026 bis Juni 2027, Bewerbungsschluss ist der 12. September 2026, 23:59 PT.",
+      "relevance": {
+        "studium": "Ein konkretes, direkt zugängliches Angebot mit Stipendium und API-Credits. Wer Interesse hat, muss aber innerhalb der nächsten Tage entscheiden.",
+        "alltag": "Eher nischig für den Alltag, abgesehen von den API-Credits für eigene Automatisierungsprojekte."
+      },
+      "source": {
+        "url": "https://claude.com/programs/campus",
+        "name": "Anthropic",
+        "published": "2026-09-01"
+      },
+      "tags": ["anthropic", "claude", "stipendium", "frist"],
+      "deadline": "2026-09-12"
+    },
+    {
+      "id": "android-feature-drop-september-2026",
+      "category": "alltag",
+      "title": "Android Feature Drop: Gemini merkt sich, wo Dinge liegen",
+      "summary": "Der September-Feature-Drop für Android bringt mehrere neue KI-Funktionen. Über Find Hub kann man Gemini sagen, wo man etwas abgelegt hat („mein Reisepass liegt in der Schlafzimmerschublade“, optional mit Foto), und es später wieder abfragen. Motion Assist blendet unter Android 17 eine mitbewegte Blase ein, um Reiseübelkeit beim Handynutzen im Auto zu reduzieren. Guided Vision in Gemini Live beschreibt per Kamera die Umgebung für blinde und sehbehinderte Nutzer, und Google-Keep-Notizen lassen sich direkt in Google Messages gemeinsam bearbeiten.",
+      "relevance": {
+        "studium": "Gemeinsam bearbeitbare Keep-Notizen direkt im Chat erleichtern die Abstimmung in Lerngruppen und WG-Projekten ohne zusätzliche App.",
+        "alltag": "Die Merkfunktion für abgelegte Gegenstände und Motion Assist auf Bus- und Bahnfahrten lösen sehr alltägliche Probleme direkt im Betriebssystem."
+      },
+      "source": {
+        "url": "https://blog.google/products-and-platforms/platforms/android/android-drop-september-2026/",
+        "name": "Google Blog",
+        "published": "2026-09-03"
+      },
+      "tags": ["android", "gemini", "feature-drop", "barrierefreiheit"]
+    }
+  ],
+  "quick_hits": [
+    {
+      "id": "amazon-alexa-scam-check",
+      "title": "Alexa for Shopping prüft Betrugsnachrichten",
+      "summary": "Amazons Shopping-KI gleicht verdächtige Nachrichten zu Bestellungen, Prime-Verlängerungen oder Kontosperrungen mit Amazons eigenen Sendedaten ab und sagt, ob sie echt sind.",
+      "source": {
+        "url": "https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam/",
+        "name": "TechCrunch"
+      },
+      "tags": ["amazon", "sicherheit"]
+    },
+    {
+      "id": "sourclip-2-research-workspace",
+      "title": "Sourclip",
+      "summary": "Chrome-Erweiterung, die NotebookLM/Gemini Notebook zu einem Recherche-Workspace ausbaut: Quellen aus YouTube, Web, Reddit, X, PDFs und KI-Chats sammeln, in Ordnern und wiederverwendbaren Prompts organisieren, Mindmaps bearbeiten und nach Markdown, HTML oder PDF exportieren.",
+      "source": {
+        "url": "https://www.sourclip.com/",
+        "name": "sourclip.com"
+      },
+      "tags": ["recherche", "notebooklm", "browser-erweiterung"]
+    },
+    {
+      "id": "google-ai-educator-deep-research-modul",
+      "title": "Google AI Educator Series: neues Modul zu Gemini Deep Research",
+      "summary": "Kostenloses Trainingsmodul, das zeigt, wie man Gemini Deep Research für wissenschaftliche Fragestellungen in Papers und Abschlussarbeiten einsetzt, plus Einführung in Guided Learning und virtueller Badge-a-thon am 19. September.",
+      "source": {
+        "url": "https://blog.google/products-and-platforms/products/education/new-ai-educator-trainings-september-2026/",
+        "name": "Google Blog"
+      },
+      "tags": ["google", "deep-research", "lernen"]
+    }
+  ],
+  "archive_only": [
+    {
+      "id": "openai-astra-launch",
+      "title": "OpenAI veröffentlicht neues Flaggschiff-Modell Astra, mächtig, aber umstritten",
+      "source": {
+        "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+        "name": "TechCrunch"
+      }
+    },
+    {
+      "id": "google-gemini-student-hub",
+      "title": "Google schenkt Studierenden ein Jahr Gemini AI Pro/Plus und startet neuen Student Hub",
+      "source": {
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/",
+        "name": "Google Blog"
+      }
+    },
+    {
+      "id": "google-assistant-shutdown",
+      "title": "Google Assistant wird abgeschaltet, Gemini übernimmt auf Android",
+      "source": {
+        "url": "https://9to5google.com/2026/08/04/google-assistant-september-2026-shutdown/",
+        "name": "9to5Google"
+      }
+    }
+  ]
+}

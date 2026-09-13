@@ -31,11 +31,14 @@ Du bekommst: die 3 finalen Einträge (`week_top3`), optional bis zu 3 weitere Ei
    allen drei `week_top3`-Einträgen (und, falls vorhanden, dem Tools-&-Alltagshelfer-
    Abschnitt) und ausschließlich Inline-Styles (kein `<style>`-Block, kein externes
    JS/CSS)?
-6. **Website (falls vorhanden)**: Falls dir Pfade zu `docs/index.html` und
-   `docs/weeks/<Woche>.html` übergeben wurden: Prüfe nur, dass beide Dateien existieren
-   und nicht leer sind, und dass `docs/index.html` einen Link auf die aktuelle
-   `docs/weeks/<Woche>.html` enthält. Ein tiefer inhaltlicher Vergleich ist hier nicht
-   nötig, da der Inhalt identisch zur bereits geprüften Email ist.
+6. **Website-Daten (falls vorhanden)**: Falls dir der Pfad zu
+   `data/weeks/<Woche>.json` übergeben wurde: Prüfe, dass die Datei existiert, gültiges
+   JSON ist, unter `items` genau die `short_id`s aus `week_top3` als `id` enthält und
+   unter `quick_hits` genau die aus `quick_hits`. Das Format hat bereits
+   `scripts/publish_week.mjs` geprüft, ein tiefer inhaltlicher Vergleich ist nicht
+   nötig, der Inhalt stammt aus derselben Synthese wie die Email. Fehlt die Datei, weil
+   das Skript gescheitert ist, halte den Versand deswegen nicht auf, sondern führe es
+   als issue auf.
 
 ## Output-Format
 
