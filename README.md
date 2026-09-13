@@ -66,7 +66,7 @@ tmp/                                  Zwischenstände eines Laufs, nicht im Repo
 
 | Variable | Wert | Zweck |
 |---|---|---|
-| `EMAIL_TO` | `antonino0815@outlook.de` | Empfänger der Wochen-Email |
+| `EMAIL_TO` | `xxxx` | Empfänger der Wochen-Email |
 | `SITE_URL` | Adresse der Website, endet mit `/` | Die Email verlinkt auf `<SITE_URL>#/woche/<KW>` |
 
 Ist `SITE_URL` nicht gesetzt, entfallen die Website-Links in der Email ersatzlos, der
