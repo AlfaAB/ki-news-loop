@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "iso_week": "2026-W38",
+  "year": 2026,
+  "week": 38,
+  "sent_date": "2026-09-20",
+  "lead": "Gemini Notebook wird zum Lern-Assistenten für die Vorlesung",
+  "items": [
+    {
+      "id": "gemini-notebook-back-to-school-2026",
+      "category": "studium",
+      "title": "Gemini Notebook wird zum Lern-Assistenten für die Vorlesung",
+      "summary": "Google hat am 18.09.2026 für Gemini Notebook (früher NotebookLM) ein Back-to-School-Update angekündigt. Neu ist ein Audio-Recorder in der Mobile-App, mit dem sich Vorlesungen mitschneiden lassen; die Mitschnitte liegen direkt neben den übrigen Quellen und sind zitierbar. Dazu kommen Echtzeit-Sprachgespräche mit dem eigenen Notebook in rund 100 Sprachen (für Nutzer ab 18 Jahren) und interaktive 'Learning Overviews', die Zusammenfassung, Quiz, Karteikarten und Mindmap kombinieren. Die Quizformate wurden um Kurzantwort, Multiple Choice und Lückentext erweitert, Video-Overviews von rund 60 Sekunden gibt es in über 80 Sprachen.",
+      "relevance": {
+        "studium": "Vorlesung aufnehmen, daraus automatisch Karteikarten und Quizfragen erzeugen und anschließend mündlich mit dem eigenen Skript sprechen, deckt einen kompletten Lernzyklus in einem Tool ab. Weil die Antworten an die eigenen Quellen gebunden bleiben, lassen sich Aussagen leichter nachprüfen als im freien Chat.",
+        "alltag": "Auch außerhalb des Studiums lassen sich damit lange Dokumente, Verträge oder Handbücher einlesen und per Sprache abfragen, ohne alles selbst zu lesen."
+      },
+      "source": {
+        "url": "https://workspaceupdates.googleblog.com/2026/09/new-back-to-school-features-and-learning-tools-available-in-Gemini-Notebook.html",
+        "name": "Google Workspace Updates"
+      },
+      "tags": [
+        "gemini",
+        "notebooklm",
+        "lernen",
+        "vorlesung"
+      ]
+    },
+    {
+      "id": "claude-cowork-merge-docs-slides",
+      "category": "tools",
+      "title": "Anthropic bündelt Claude und startet Claude Docs und Claude Slides",
+      "summary": "Anthropic hat am 16.09.2026 den separaten agentischen Arbeitsbereich 'Cowork' in die normale Claude-App integriert. Nutzer müssen nicht mehr selbst zwischen Modi wählen: Claude entscheidet pro Aufgabe, ob es im Chat- oder im Agenten-Modus arbeitet. Gleichzeitig sind Claude Docs und Claude Slides als Beta gestartet: Dokumente und Präsentationsfolien entstehen direkt im Gespräch und lassen sich als PDF oder PowerPoint exportieren. Claude Design läuft ebenfalls inline. Der Rollout beginnt bei Pro- und Max-Abos über Web, Desktop und Mobile, Team und Free sollen folgen.",
+      "relevance": {
+        "studium": "Hausarbeit schreiben und Referatsfolien bauen sind zwei Kernaufgaben im Semester, die jetzt ohne Umweg über Copy-Paste in Word oder PowerPoint im selben Gespräch erledigt werden können.",
+        "alltag": "Für Bewerbungsunterlagen, Nebenjob-Präsentationen oder kleine Auswertungen entfällt der Wechsel zwischen Chatfenster und Office-Programm."
+      },
+      "source": {
+        "url": "https://claude.com/blog/cowork-is-now-claude",
+        "name": "Anthropic"
+      },
+      "tags": [
+        "claude",
+        "anthropic",
+        "dokumente",
+        "praesentation"
+      ]
+    },
+    {
+      "id": "meta-muse-mac-desktop-agent",
+      "category": "alltag",
+      "title": "Meta Muse kommt auf den Mac und bedient dort echte Programme",
+      "summary": "Meta hat seinen Assistenten Muse am 18.09.2026 als macOS-Desktop-App nachgeschoben. Anders als die Mobil- und Web-Version kann Muse auf dem Mac in nativen Programmen selbst handeln, also in Dateien, Mail, Nachrichten, Kalender und Notizen. Der Zugriff ist pro Bereich Opt-in, und vor sensiblen Aktionen fragt Muse laut Meta immer vorher um Erlaubnis. Zuletzt kam außerdem eine Bedienung per Sprachanruf dazu. Damit wird aus dem Chat-Assistenten, der Anfang September gestartet war, ein Agent, der den eigenen Rechner bedient.",
+      "relevance": {
+        "studium": "Termine aus Mails in den Kalender übertragen, Seminarunterlagen sortieren oder Nachrichten abarbeiten lässt sich delegieren, statt es zwischen Vorlesungen selbst zu klicken.",
+        "alltag": "Wiederkehrende Kleinarbeit am Rechner, etwa Dateien einsortieren oder Mails beantworten, kann Schritt für Schritt automatisiert werden, mit Rückfrage vor heiklen Aktionen."
+      },
+      "source": {
+        "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+        "name": "TechCrunch"
+      },
+      "tags": [
+        "meta",
+        "muse",
+        "mac",
+        "agent"
+      ]
+    }
+  ],
+  "quick_hits": [
+    {
+      "id": "mistral-firefox-smart-window",
+      "title": "Mistral im Firefox Smart Window",
+      "summary": "Mozilla lässt Firefox' neuen KI-Modus 'Smart Window' von Mistral-Modellen antreiben: Er zieht Kontext aus den offenen Tabs, Gespräche werden standardmäßig nicht auf Mozillas Servern gespeichert und bei den Partnern gilt Zero Data Retention; Start in Frankreich und Nordamerika, Deutschland und UK sollen noch dieses Jahr folgen.",
+      "source": {
+        "url": "https://mistral.ai/news/mistral-x-mozilla/",
+        "name": "Mistral AI"
+      },
+      "tags": [
+        "firefox",
+        "mistral",
+        "browser",
+        "datenschutz"
+      ]
+    },
+    {
+      "id": "aws-pizza-bot-agent-inbox",
+      "title": "AWS Pizza Bot",
+      "summary": "Kostenlose Open-Source-App für macOS, Windows und Linux, die laufende KI-Agenten wie ein Mail-Postfach verwaltet: Ergebnisse landen als ungelesener Thread, Entscheidungen kommen in eine 'Action'-Ablage, alles lokal in SQLite, nach außen geht standardmäßig nichts, mit Unterstützung für Anthropic, OpenAI und lokale Ollama-Modelle; es stammt zwar aus einem Amazon-Projekt, ist aber ausdrücklich kein offiziell supporteter AWS-Dienst.",
+      "source": {
+        "url": "https://www.theregister.com/ai-and-ml/2026/09/15/your-ai-agents-reports-and-questions-have-a-new-inbox-courtesy-of-aws/5296661",
+        "name": "The Register"
+      },
+      "tags": [
+        "aws",
+        "open-source",
+        "agenten",
+        "automatisierung"
+      ]
+    },
+    {
+      "id": "voiskey-voice-typing",
+      "title": "Voiskey",
+      "summary": "Diktier-App für iOS, macOS, Android und Windows, die anders als reine Spracherkennung den Ton an den Zielkontext anpasst (locker im Chat, formell in der Mail, technisch im KI-Prompt), 100+ Sprachen samt Sprachwechsel mitten im Satz beherrscht und sich einmal vorgenommene Korrekturen merkt.",
+      "source": {
+        "url": "https://www.producthunt.com/products/voiskey",
+        "name": "Product Hunt"
+      },
+      "tags": [
+        "diktieren",
+        "voice-to-text",
+        "produktivitaet"
+      ]
+    }
+  ]
+}

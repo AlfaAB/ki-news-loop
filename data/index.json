@@ -1,7 +1,16 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-13T12:34:58.363Z",
+  "generated_at": "2026-09-20T07:20:45.307Z",
   "weeks": [
+    {
+      "iso_week": "2026-W38",
+      "year": 2026,
+      "week": 38,
+      "sent_date": "2026-09-20",
+      "lead": "Gemini Notebook wird zum Lern-Assistenten für die Vorlesung",
+      "item_count": 3,
+      "quick_hit_count": 3
+    },
     {
       "iso_week": "2026-W37",
       "year": 2026,

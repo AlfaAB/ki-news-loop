@@ -92,6 +92,44 @@
           "source_url": "https://www.producthunt.com/products/switch-11"
         }
       ]
+    },
+    {
+      "iso_week": "2026-W38",
+      "sent_date": "2026-09-20",
+      "items": [
+        {
+          "title": "Gemini Notebook wird zum Lern-Assistenten für die Vorlesung",
+          "short_id": "gemini-notebook-back-to-school-2026",
+          "source_url": "https://workspaceupdates.googleblog.com/2026/09/new-back-to-school-features-and-learning-tools-available-in-Gemini-Notebook.html"
+        },
+        {
+          "title": "Anthropic bündelt Claude und startet Claude Docs und Claude Slides",
+          "short_id": "claude-cowork-merge-docs-slides",
+          "source_url": "https://claude.com/blog/cowork-is-now-claude"
+        },
+        {
+          "title": "Meta Muse kommt auf den Mac und bedient dort echte Programme",
+          "short_id": "meta-muse-mac-desktop-agent",
+          "source_url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "Mistral im Firefox Smart Window",
+          "short_id": "mistral-firefox-smart-window",
+          "source_url": "https://mistral.ai/news/mistral-x-mozilla/"
+        },
+        {
+          "title": "AWS Pizza Bot",
+          "short_id": "aws-pizza-bot-agent-inbox",
+          "source_url": "https://www.theregister.com/ai-and-ml/2026/09/15/your-ai-agents-reports-and-questions-have-a-new-inbox-courtesy-of-aws/5296661"
+        },
+        {
+          "title": "Voiskey",
+          "short_id": "voiskey-voice-typing",
+          "source_url": "https://www.producthunt.com/products/voiskey"
+        }
+      ]
     }
   ]
 }
