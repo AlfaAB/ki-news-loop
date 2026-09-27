@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "iso_week": "2026-W39",
+  "year": 2026,
+  "week": 39,
+  "sent_date": "2026-09-27",
+  "lead": "Anthropic veröffentlicht Claude Opus 5.5",
+  "items": [
+    {
+      "id": "anthropic-claude-opus-5-5",
+      "category": "tools",
+      "title": "Anthropic veröffentlicht Claude Opus 5.5",
+      "summary": "Anthropic hat Claude Opus 5.5 vorgestellt. Laut Anbieter führt es bei agentischem Coding und Knowledge Work und läuft dabei bei typischen Arbeitslasten rund 40% günstiger als Opus 5; die API-Preise liegen bei 4 USD pro Mio. Input- und 20 USD pro Mio. Output-Token, etwa 20% unter Opus 5. Verfügbar ist das Modell für Pro-, Max-, Team- und Enterprise-Abos sowie über die Claude Platform, AWS, Google Cloud und Microsoft Azure. Anthropic gibt außerdem an, dass die Widerstandsfähigkeit gegen Prompt-Injection die von Opus 5 erreicht oder übertrifft.",
+      "relevance": {
+        "studium": "Wer Claude ohnehin für Recherche, Code oder längere Textarbeit nutzt, bekommt ohne Aufpreis ein spürbar stärkeres Modell im bestehenden Pro-Abo.",
+        "alltag": "Die niedrigeren Token-Preise machen eigene kleine Automatisierungen über die API deutlich billiger, und die Absicherung gegen Prompt-Injection ist relevant, sobald ein Agent selbstständig im Web unterwegs ist."
+      },
+      "source": {
+        "url": "https://www.anthropic.com/claude-opus-5-5",
+        "name": "Anthropic"
+      },
+      "tags": [
+        "anthropic",
+        "claude",
+        "modell-release"
+      ]
+    },
+    {
+      "id": "chatgpt-voice-work-tab-agentisch",
+      "category": "alltag",
+      "title": "ChatGPT Voice wird agentisch: Work-Tab und Plugins in der Mobile-App",
+      "summary": "OpenAI hat ChatGPT Voice am 23./24. September mit der agentischen Work-Ebene, dem Modell GPT-Live und dem Plugin-Ökosystem verbunden. Plus- und Pro-Nutzer erhalten in der Mobile-App einen Work-Tab, über den sich per Sprache Dokumente erstellen, E-Mails diktieren, Slack-Nachrichten zusammenfassen, Präsentationen bauen und ein Cloud-Browser nutzen lassen. Free- und Go-Nutzer bekommen immerhin Plugins und verbundene Apps wie E-Mail, Kalender und Slack. Gespräche lassen sich zwischen Handy und Desktop nahtlos fortsetzen.",
+      "relevance": {
+        "studium": "Zwischen Vorlesungen lassen sich per Sprache Mails, Zusammenfassungen oder erste Folienentwürfe erledigen, ohne sich an den Laptop zu setzen.",
+        "alltag": "Sprache wird damit zur echten Steuerungsebene für wiederkehrende Aufgaben in Kalender, Mail und Chat, statt nur für Fragen und Antworten."
+      },
+      "source": {
+        "url": "https://dataconomy.com/2026/09/24/openai-voice-power-work-features-chatgpt-mobile/",
+        "name": "Dataconomy"
+      },
+      "tags": [
+        "openai",
+        "chatgpt",
+        "voice",
+        "agenten"
+      ]
+    },
+    {
+      "id": "sciencebuddy-preview-research-workspace",
+      "category": "studium",
+      "title": "ScienceBuddy Preview: KI-Workspace für Literatur, Daten und Abbildungen",
+      "summary": "PhAI Labs hat ScienceBuddy Preview veröffentlicht, einen browserbasierten Forschungs-Workspace. Er führt Paper, Tabellen, biologische Sequenzen und wissenschaftliche Abbildungen in einer Umgebung zusammen: Man kann eine Abbildung hochladen und interpretieren lassen, Literatur recherchieren und Proteininformationen abrufen. Jeder Arbeitsschritt bleibt inklusive Tool-Aufrufen und Quellen nachvollziehbar. Den Zugang können Forschende derzeit über science-buddy.io anfragen; die Oberfläche gibt es auf Englisch und Chinesisch.",
+      "relevance": {
+        "studium": "Für Seminar- und Abschlussarbeiten ein konkret testbarer Ort, an dem Literatursuche, Datenauswertung und das Verstehen fremder Abbildungen zusammenlaufen, mit nachvollziehbaren Quellen statt Blackbox-Antworten.",
+        "alltag": "Eher nischig für den Alltag, interessant vor allem bei wissenschaftlichem Arbeiten."
+      },
+      "source": {
+        "url": "https://www.newsfilecorp.com/release/315717/PhAI-Labs-Releases-ScienceBuddy-Preview-a-Scientific-AI-Workspace-Designed-to-Learn-from-Researchers",
+        "name": "Newsfile"
+      },
+      "tags": [
+        "forschung",
+        "literaturrecherche",
+        "workspace"
+      ]
+    }
+  ],
+  "quick_hits": [
+    {
+      "id": "kimi-browser-extension",
+      "title": "Kimi Browser Extension",
+      "summary": "Sidebar-Agent für Chrome und Edge von Moonshot AI, der Webseiten navigiert, Formulare ausfüllt und Informationen extrahiert, und wiederkehrende Abläufe einmal aufzeichnet und als wiederverwendbaren Skill speichert.",
+      "source": {
+        "url": "https://www.kimi.ai/products/kimi-browser-extension",
+        "name": "Kimi"
+      },
+      "tags": [
+        "browser",
+        "automatisierung",
+        "kimi"
+      ]
+    },
+    {
+      "id": "rabbit-os3-launch",
+      "title": "Rabbit OS3",
+      "summary": "Cloudbasiertes Agenten-Betriebssystem, das ohne R1-Gerät auskommt und bis zu fünf Rechner per Browser, Telegram oder iMessage steuert, etwa um von unterwegs eine Tabelle auf dem Heim-PC aktualisieren zu lassen.",
+      "source": {
+        "url": "https://www.rabbit.tech/newsroom/rabbitos-3-launch",
+        "name": "Rabbit"
+      },
+      "tags": [
+        "agenten",
+        "fernsteuerung",
+        "automatisierung"
+      ]
+    },
+    {
+      "id": "gemini-call-for-me",
+      "title": "Gemini Call for Me",
+      "summary": "Google testet, dass Gemini selbst bei Unternehmen anruft, um Verfügbarkeiten zu prüfen oder Termine zu verschieben, inklusive Live-Transkript und Übernahmemöglichkeit, vorerst nur auf dem Pixel 11 in den USA mit kostenpflichtigem Gemini-Abo.",
+      "source": {
+        "url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+        "name": "TechCrunch"
+      },
+      "tags": [
+        "gemini",
+        "telefon",
+        "pixel"
+      ]
+    }
+  ]
+}

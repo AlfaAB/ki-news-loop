@@ -130,6 +130,44 @@
           "source_url": "https://www.producthunt.com/products/voiskey"
         }
       ]
+    },
+    {
+      "iso_week": "2026-W39",
+      "sent_date": "2026-09-27",
+      "items": [
+        {
+          "title": "Anthropic veröffentlicht Claude Opus 5.5",
+          "short_id": "anthropic-claude-opus-5-5",
+          "source_url": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        {
+          "title": "ChatGPT Voice wird agentisch: Work-Tab und Plugins in der Mobile-App",
+          "short_id": "chatgpt-voice-work-tab-agentisch",
+          "source_url": "https://dataconomy.com/2026/09/24/openai-voice-power-work-features-chatgpt-mobile/"
+        },
+        {
+          "title": "ScienceBuddy Preview: KI-Workspace für Literatur, Daten und Abbildungen",
+          "short_id": "sciencebuddy-preview-research-workspace",
+          "source_url": "https://www.newsfilecorp.com/release/315717/PhAI-Labs-Releases-ScienceBuddy-Preview-a-Scientific-AI-Workspace-Designed-to-Learn-from-Researchers"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "Kimi Browser Extension",
+          "short_id": "kimi-browser-extension",
+          "source_url": "https://www.kimi.ai/products/kimi-browser-extension"
+        },
+        {
+          "title": "Rabbit OS3",
+          "short_id": "rabbit-os3-launch",
+          "source_url": "https://www.rabbit.tech/newsroom/rabbitos-3-launch"
+        },
+        {
+          "title": "Gemini Call for Me",
+          "short_id": "gemini-call-for-me",
+          "source_url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/"
+        }
+      ]
     }
   ]
 }
