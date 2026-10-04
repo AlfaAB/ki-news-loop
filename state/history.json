@@ -168,6 +168,44 @@
           "source_url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/"
         }
       ]
+    },
+    {
+      "iso_week": "2026-W40",
+      "sent_date": "2026-10-04",
+      "items": [
+        {
+          "title": "Gemini Skills: wiederverwendbare Prompts per Slash-Befehl, Gems werden abgelöst",
+          "short_id": "gemini-skills-replace-gems",
+          "source_url": "https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html"
+        },
+        {
+          "title": "OpenAI DevDay 2026: Dots-Agenten und deutlich günstigeres GPT-6.1 Sol",
+          "short_id": "openai-devday-2026-dots-gpt61-sol",
+          "source_url": "https://community.openai.com/t/devday-2026-announcements-and-developer-resources/1402006"
+        },
+        {
+          "title": "Benchmark zu KI-Detektoren: große Modelle erkennen KI-Text besser als die Spezialtools",
+          "short_id": "vals-ai-detection-benchmark",
+          "source_url": "https://www.vals.ai/blogs/ai-detection-benchmark"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "Paste 7",
+          "short_id": "paste-7-intelligent-clipboard",
+          "source_url": "https://www.producthunt.com/products/paste?launch=paste-7"
+        },
+        {
+          "title": "Hyperknow",
+          "short_id": "hyperknow-course-generator",
+          "source_url": "https://www.hyperknow.io/"
+        },
+        {
+          "title": "Jotform Sign für ChatGPT und Claude",
+          "short_id": "jotform-sign-chatgpt-claude",
+          "source_url": "https://www.jotform.com/ai/announcing-jotform-sign-for-chatgpt-and-claude/"
+        }
+      ]
     }
   ]
 }

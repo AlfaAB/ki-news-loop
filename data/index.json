@@ -1,7 +1,16 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-27T07:20:47.943Z",
+  "generated_at": "2026-10-04T07:20:42.687Z",
   "weeks": [
+    {
+      "iso_week": "2026-W40",
+      "year": 2026,
+      "week": 40,
+      "sent_date": "2026-10-04",
+      "lead": "Gemini Skills: wiederverwendbare Prompts per Slash-Befehl, Gems werden abgelöst",
+      "item_count": 3,
+      "quick_hit_count": 3
+    },
     {
       "iso_week": "2026-W39",
       "year": 2026,
