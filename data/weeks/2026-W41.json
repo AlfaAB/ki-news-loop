@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "iso_week": "2026-W41",
+  "year": 2026,
+  "week": 41,
+  "sent_date": "2026-10-11",
+  "lead": "Claude arbeitet jetzt direkt in Google Docs, Sheets und Slides",
+  "items": [
+    {
+      "id": "claude-google-workspace-beta",
+      "category": "tools",
+      "title": "Claude arbeitet jetzt direkt in Google Docs, Sheets und Slides",
+      "summary": "Anthropic hat am 6. Oktober 2026 'Claude for Google Workspace' als Public Beta gestartet. Das Sidebar-Add-on für Docs, Sheets und Slides ist auf allen bezahlten Claude-Plänen verfügbar: Claude liest die gerade offene Datei und arbeitet direkt darin. In Sheets kann es Formeln, Pivot-Tabellen und Charts bauen sowie Daten per Python bereinigen, in Slides Folien in den vorhandenen Layouts anlegen. Standardmäßig fragt Claude vor jeder Änderung nach ('Ask before edits'), und der Zugriff folgt den Google-Freigaberechten, die man selbst schon hat. Zusätzlich gibt es Connectors, mit denen man Google-Dateien aus der Claude-App heraus erstellt und ändert, die laufen auf Team- und Enterprise-Plänen und müssen dort erst von einem Owner aktiviert werden.",
+      "relevance": {
+        "studium": "Hausarbeiten, Datenauswertungen und Präsentationen lassen sich im eigenen Dokument bearbeiten, statt Text hin und her zu kopieren, inklusive Formeln und Diagrammen in Sheets.",
+        "alltag": "Wer Google Docs oder Sheets für Haushalts-, Bewerbungs- oder Vereinsunterlagen nutzt, bekommt KI-Unterstützung an der Stelle, wo die Dateien schon liegen."
+      },
+      "source": {
+        "url": "https://venturebeat.com/technology/you-can-now-open-claude-directly-in-google-docs-sheets-and-slides-and-vice-versa-open-and-edit-the-files-in-claude",
+        "name": "VentureBeat"
+      },
+      "tags": [
+        "claude",
+        "google-workspace",
+        "office"
+      ]
+    },
+    {
+      "id": "chatgpt-audio-upload-transkription",
+      "category": "studium",
+      "title": "ChatGPT transkribiert hochgeladene Audiodateien bis 512 MB",
+      "summary": "Seit dem 6. Oktober 2026 können zahlende ChatGPT-Nutzer Audioaufnahmen direkt hochladen und daraus Transkripte, Zusammenfassungen, strukturierte Notizen oder Folge-Entwürfe erzeugen. Pro Datei sind bis zu 512 MB erlaubt, unterstützt werden neun Formate, darunter WAV, MP3, FLAC und M4A. Es gilt ein Limit von 80 Uploads pro drei Stunden; der Free-Plan ist ausgeschlossen. OpenAI weist selbst darauf hin, dass Transkripte Fehler enthalten können und die Sprechererkennung unzuverlässig ist.",
+      "relevance": {
+        "studium": "Vorlesungsmitschnitte, Interviews für Seminararbeiten oder Gruppenbesprechungen lassen sich ohne separates Transkriptions-Tool in Text und Zusammenfassung verwandeln, am besten mit anschließender Stichproben-Kontrolle.",
+        "alltag": "Auch Sprachnachrichten, Telefonmitschnitte oder lange Podcast-Aufnahmen kann man so schnell durchsuchbar machen, statt alles erneut anzuhören."
+      },
+      "source": {
+        "url": "https://mixed-news.com/en/chatgpt-audio-uploads-512mb-paid-plans-hidden-upload-quota/",
+        "name": "MIXED News"
+      },
+      "tags": [
+        "chatgpt",
+        "transkription",
+        "vorlesung"
+      ]
+    },
+    {
+      "id": "openai-chatgpt-intelligent-ui",
+      "category": "tools",
+      "title": "ChatGPT antwortet mit Oberflächen statt nur mit Text",
+      "summary": "OpenAI hat am 7. Oktober 2026 den globalen Rollout von 'Intelligent UI' für die GPT-6-Familie gestartet. ChatGPT entscheidet dabei selbst, wann eine Antwort keine reine Textantwort sein sollte, und erzeugt stattdessen Grafiken, Diagramme, Formulare, Buttons oder kleine interaktive Werkzeuge wie Rechner direkt im Chat. Der Start erfolgte für Plus, Pro, Business und Enterprise, Free- und Go-Nutzer kamen am Tag danach dazu. In Enterprise-Umgebungen müssen Admins die Funktion erst freischalten.",
+      "relevance": {
+        "studium": "Rechenwege, Vergleiche und Zeitpläne kommen als bedienbares Diagramm oder Mini-Tool zurück, was beim Nachvollziehen und beim Durchspielen von Varianten mehr hilft als ein Textabsatz.",
+        "alltag": "Für Alltagsfragen wie Budget-, Kredit- oder Terminplanung bekommt man direkt einen kleinen interaktiven Rechner oder eine Übersicht, ohne eine extra App zu suchen."
+      },
+      "source": {
+        "url": "https://gizmodo.com/openai-wants-chatgpt-to-stop-looking-like-a-chatbot-2000823211",
+        "name": "Gizmodo"
+      },
+      "tags": [
+        "chatgpt",
+        "gpt-6",
+        "interface"
+      ]
+    }
+  ],
+  "quick_hits": [
+    {
+      "id": "google-ai-edge-foresight",
+      "title": "Google AI Edge Foresight",
+      "summary": "Mac-App für Apple Silicon, die Meetings und Präsenzgespräche komplett offline auf dem Gerät transkribiert und die KI-Notizen in einer Split-View neben den eigenen Mitschriften zeigt.",
+      "source": {
+        "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
+        "name": "TechCrunch"
+      },
+      "tags": [
+        "notizen",
+        "offline",
+        "mac"
+      ]
+    },
+    {
+      "id": "irisgo-watch-and-learn",
+      "title": "IrisGo for Solopreneurs",
+      "summary": "Desktop-App für Windows und Mac, die einen einmal vorgemachten Arbeitsablauf per Bildschirmbeobachtung lernt und ihn danach selbst wiederholt, während der Beta kostenlos, verlangt dafür aber weitreichende Systemrechte.",
+      "source": {
+        "url": "https://www.producthunt.com/products/irisgo-public-beta",
+        "name": "Product Hunt"
+      },
+      "tags": [
+        "automatisierung",
+        "desktop",
+        "agenten"
+      ]
+    },
+    {
+      "id": "gemini-nano-banana-2-1",
+      "title": "Gemini Nano Banana 2.1",
+      "summary": "Update des Flash-Bildmodells mit besserer Textwiedergabe, saubereren Infografik-Layouts und Fusion von bis zu 14 Referenzbildern, praktisch für Grafiken in Präsentationen und Hausarbeiten.",
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models/gemini-nano-banana-2.1",
+        "name": "Google AI for Developers"
+      },
+      "tags": [
+        "bildgenerierung",
+        "praesentation",
+        "gemini"
+      ]
+    }
+  ]
+}

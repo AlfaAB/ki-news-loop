@@ -1,7 +1,16 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-04T07:20:42.687Z",
+  "generated_at": "2026-10-11T07:28:53.723Z",
   "weeks": [
+    {
+      "iso_week": "2026-W41",
+      "year": 2026,
+      "week": 41,
+      "sent_date": "2026-10-11",
+      "lead": "Claude arbeitet jetzt direkt in Google Docs, Sheets und Slides",
+      "item_count": 3,
+      "quick_hit_count": 3
+    },
     {
       "iso_week": "2026-W40",
       "year": 2026,

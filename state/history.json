@@ -206,6 +206,44 @@
           "source_url": "https://www.jotform.com/ai/announcing-jotform-sign-for-chatgpt-and-claude/"
         }
       ]
+    },
+    {
+      "iso_week": "2026-W41",
+      "sent_date": "2026-10-11",
+      "items": [
+        {
+          "title": "Claude arbeitet jetzt direkt in Google Docs, Sheets und Slides",
+          "short_id": "claude-google-workspace-beta",
+          "source_url": "https://venturebeat.com/technology/you-can-now-open-claude-directly-in-google-docs-sheets-and-slides-and-vice-versa-open-and-edit-the-files-in-claude"
+        },
+        {
+          "title": "ChatGPT transkribiert hochgeladene Audiodateien bis 512 MB",
+          "short_id": "chatgpt-audio-upload-transkription",
+          "source_url": "https://mixed-news.com/en/chatgpt-audio-uploads-512mb-paid-plans-hidden-upload-quota/"
+        },
+        {
+          "title": "ChatGPT antwortet mit Oberflächen statt nur mit Text",
+          "short_id": "openai-chatgpt-intelligent-ui",
+          "source_url": "https://gizmodo.com/openai-wants-chatgpt-to-stop-looking-like-a-chatbot-2000823211"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "Google AI Edge Foresight",
+          "short_id": "google-ai-edge-foresight",
+          "source_url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/"
+        },
+        {
+          "title": "IrisGo for Solopreneurs",
+          "short_id": "irisgo-watch-and-learn",
+          "source_url": "https://www.producthunt.com/products/irisgo-public-beta"
+        },
+        {
+          "title": "Gemini Nano Banana 2.1",
+          "short_id": "gemini-nano-banana-2-1",
+          "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini-nano-banana-2.1"
+        }
+      ]
     }
   ]
 }
