@@ -1,7 +1,16 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-11T07:28:53.723Z",
+  "generated_at": "2026-10-18T07:27:13.098Z",
   "weeks": [
+    {
+      "iso_week": "2026-W42",
+      "year": 2026,
+      "week": 42,
+      "sent_date": "2026-10-18",
+      "lead": "Google Deep Review: KI-Agent liest die Arbeit vor der Abgabe gegen",
+      "item_count": 3,
+      "quick_hit_count": 3
+    },
     {
       "iso_week": "2026-W41",
       "year": 2026,

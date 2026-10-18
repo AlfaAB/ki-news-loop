@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "iso_week": "2026-W42",
+  "year": 2026,
+  "week": 42,
+  "sent_date": "2026-10-18",
+  "lead": "Google Deep Review: KI-Agent liest die Arbeit vor der Abgabe gegen",
+  "items": [
+    {
+      "id": "google-deep-review",
+      "category": "studium",
+      "title": "Google Deep Review: KI-Agent liest die Arbeit vor der Abgabe gegen",
+      "summary": "Google Research hat Deep Review öffentlich freigegeben, ein agentisches System, das technische Dokumente auf Mathe-Fehler, Logiklücken und unbelegte Behauptungen prüft. Das Dokument wird in Abschnitte zerlegt, spezialisierte Agenten prüfen sie einzeln, ein Synthese-Agent konsolidiert das Ergebnis und setzt am Ende externe Grounding-Checks und Tool-Aufrufe gegen Halluzinationen ein. Zum Start unterstützt Google laut eigenem Blogpost PDF und Plaintext, Reviews über mehrere Dateien hinweg sind angekündigt. Kostenlos sind zwei Reviews pro Woche, mehr gehen über einen eigenen Gemini-API-Key. Uploads werden laut Google nicht zum Training genutzt, aber ein Jahr gespeichert. Vorgänger war ein Paper Assistant Tool, das bei Konferenzen wie ICML, NeurIPS und ICLR schon mehrere Tausend Einreichungen kommentiert hat.",
+      "relevance": {
+        "studium": "Das ist ein direkt einsetzbarer Pre-Submission-Check für Seminar-, Bachelor- und Masterarbeiten, ohne Institutions-Account und ohne Kosten; die Befunde muss man aber selbst gegenlesen, denn auch ein Prüf-Agent kann sich irren.",
+        "alltag": "Auch außerhalb der Uni brauchbar, um längere Texte, Bewerbungsunterlagen oder Präsentationen vor dem Absenden auf Logiklücken und unbelegte Aussagen prüfen zu lassen."
+      },
+      "source": {
+        "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+        "name": "Google Research"
+      },
+      "tags": [
+        "google",
+        "hausarbeit",
+        "review",
+        "gemini"
+      ]
+    },
+    {
+      "id": "chatgpt-chrome-tab-control",
+      "category": "tools",
+      "title": "ChatGPT in Chrome steuert jetzt offene Tabs",
+      "summary": "OpenAI hat die ChatGPT-Chrome-Extension am 15.10. deutlich erweitert: Sie kann über alle offenen Tabs hinweg lesen und vergleichen, Tabs übernehmen und darin Aufgaben ausführen, also Formulare füllen, Nachrichten senden oder Dateien herunterladen. Dazu kommen Tabs sortieren und gruppieren, Kalendereinträge anlegen und E-Mail-Entwürfe aus Tab-Inhalten. Es gibt zwei Modi: 'ChatGPT Chat' zum Lesen und Vergleichen und 'ChatGPT Work' zum Handeln; die Sidebar greift auf die komplette ChatGPT-Historie zu. Die Extension läuft auch in Edge, Brave und Opera und hat laut Chrome Web Store rund 7 Millionen Nutzer. Welche Abo-Stufen den handelnden Work-Modus bekommen, berichten die Quellen widersprüchlich, teils ist von allen Plänen inklusive Gratis-Tier die Rede, teils von Plus als Voraussetzung, hier lohnt ein Blick in die eigene App.",
+      "relevance": {
+        "studium": "Recherchen über viele Tabs, Uni-Portale und Anmeldeformulare lassen sich damit im gewohnten Browser abarbeiten, ohne auf einen separaten KI-Browser umzusteigen.",
+        "alltag": "Preis- und Produktvergleiche, Behördenformulare oder Termine aus einer Website in den Kalender kosten deutlich weniger Klicks; weil die Erweiterung Zugriff auf Tab-Inhalte und damit auf eingeloggte Sitzungen hat, sollte man sie bewusst und nicht dauerhaft auf allen Seiten aktiv lassen."
+      },
+      "source": {
+        "url": "https://www.unite.ai/openai-brings-computer-use-to-chrome-with-chatgpt-tab-controls/",
+        "name": "Unite.AI"
+      },
+      "tags": [
+        "chatgpt",
+        "chrome",
+        "browser-agent"
+      ]
+    },
+    {
+      "id": "nl-masterarbeiten-ki-detektoren",
+      "category": "studium",
+      "title": "Niederlande: 20 Prozent der Masterarbeiten größtenteils KI-geschrieben, Unis verbieten gleichzeitig KI-Detektoren",
+      "summary": "Der niederländische Sender RTL Nieuws hat hunderte aktuelle Masterarbeiten von 12 Universitäten mit dem Detektor Pangram geprüft. Nur 41 Prozent enthielten keinen erkennbaren KI-Text, 6 Prozent waren fast vollständig KI-generiert und weitere 14 Prozent zu über der Hälfte, zusammen also rund 20 Prozent 'größtenteils KI-geschrieben'. Knapp die Hälfte dieser Arbeiten hatte eine KI-Erklärung beigelegt, die meist nur Brainstorming, Rechtschreibung oder Zusammenfassen angab; Bildungsministerin Rianne Letschert nannte das Betrug und will bis Jahresende eine Strategie vorlegen. Fast gleichzeitig untersagen die Universität Utrecht und die Universität Leiden ihren Lehrenden laut Times Higher Education den Einsatz von KI-Detektionssoftware an Studierendenarbeiten, und der Dachverband Universiteiten van Nederland stellt dort klar, dass sich aus einem Detektor-Score allein kein Betrug ableiten lässt. Einzuordnen ist: Die 20-Prozent-Zahl stammt selbst aus einem Detektor, dessen Trefferquote umstritten ist.",
+      "relevance": {
+        "studium": "Zwei praktische Konsequenzen: KI-Erklärungen und Eigenständigkeitserklärungen werden ernster genommen, man sollte die eigene KI-Nutzung also wirklich vollständig angeben; gleichzeitig gelten Detektor-Scores zunehmend als nicht beweiskräftig, und die Bewertung verschiebt sich in Richtung Prozess und Prüfungsdesign.",
+        "alltag": "Eher nischig für den Alltag, zeigt aber, wie wenig belastbar automatische KI-Erkennung generell ist, auch bei Texten außerhalb der Uni."
+      },
+      "source": {
+        "url": "https://nltimes.nl/2026/10/14/20-recent-masters-theses-12-dutch-universities-largely-written-ai-chatbots",
+        "name": "NL Times"
+      },
+      "tags": [
+        "ki-detektoren",
+        "masterarbeit",
+        "niederlande",
+        "pruefungen"
+      ]
+    }
+  ],
+  "quick_hits": [
+    {
+      "id": "betterwispr-lokale-diktier-app",
+      "title": "BetterWispr",
+      "summary": "Diktier-App unter Apache-2.0-Lizenz für macOS 14+ (Apple Silicon empfohlen), die per Tastenkürzel aufnimmt und den Text mit den eingebauten Modellen komplett offline auf dem Gerät transkribiert; Aufnahmen stoppen automatisch nach zehn Minuten, mit Countdown in den letzten 30 Sekunden.",
+      "source": {
+        "url": "https://github.com/opennookorg/betterwispr",
+        "name": "GitHub"
+      },
+      "tags": [
+        "diktieren",
+        "macos",
+        "open source",
+        "offline"
+      ]
+    },
+    {
+      "id": "talanoa-email-client",
+      "title": "Talanoa",
+      "summary": "E-Mail-Client, der Threads als Chat darstellt, Zitate und Signaturen wegräumt und aus Mails To-dos mit Fälligkeitsdatum macht, wobei Suche, Zusammenfassung und Übersetzung on-device laufen und die Daten laut Anbieter ohne Cloud-Sync lokal bleiben.",
+      "source": {
+        "url": "https://www.producthunt.com/products/talanoa-2",
+        "name": "Product Hunt"
+      },
+      "tags": [
+        "e-mail",
+        "on-device",
+        "aufgaben"
+      ]
+    },
+    {
+      "id": "jockey-video-agent",
+      "title": "Jockey von TwelveLabs",
+      "summary": "Video-Agent von TwelveLabs, der die eigene Videobibliothek organisiert und durchsuchbar macht, statt sie in unbeschrifteten Dateien liegen zu lassen; diese Woche auf Platz 2 des Product-Hunt-Wochenrankings.",
+      "source": {
+        "url": "https://www.producthunt.com/leaderboard/weekly/2026/42",
+        "name": "Product Hunt"
+      },
+      "tags": [
+        "video",
+        "suche",
+        "mcp"
+      ]
+    }
+  ]
+}
