@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "iso_week": "2026-W43",
+  "year": 2026,
+  "week": 43,
+  "sent_date": "2026-10-25",
+  "lead": "Claude Duet: Anthropic startet proaktiven Agenten als eigene App",
+  "items": [
+    {
+      "id": "anthropic-claude-duet-preview",
+      "category": "alltag",
+      "title": "Claude Duet: Anthropic startet proaktiven Agenten als eigene App",
+      "summary": "Anthropic hat am 21.10.2026 eine Research Preview von Claude Duet geöffnet, einer eigenständigen App für Web, iOS und Android. Statt auf Prompts zu warten, arbeitet Claude dort im Hintergrund: Duet schickt morgens ein Briefing über die verbundenen Apps, schaut tagsüber alle paar Stunden nach und meldet sich nur, wenn etwas Aufmerksamkeit braucht. Aufgaben laufen in einer eigenen virtuellen Maschine mit Browser; vor dem Senden von Nachrichten, Zahlungen, Signaturen oder Löschvorgängen fragt Duet ausdrücklich um Freigabe. Technisch läuft Duet auf Claude Opus 5.5 und nutzt Memory, Skills und Connectors des bestehenden Claude-Accounts, der Verbrauch zählt auf die normalen Plan-Limits. Einschränkung: Zugang gibt es derzeit nur per Warteliste für Pro- und Max-Abos in den USA, Team und Enterprise sind noch nicht dabei.",
+      "relevance": {
+        "studium": "Ein Agent, der Mails, Kalender und Uni-Orga von selbst im Blick behält, nimmt genau die Verwaltungsarbeit ab, die neben Vorlesungen und Abgaben liegen bleibt.",
+        "alltag": "Es ist der Schritt vom Assistenten, den man fragt, zum Agenten, der sich selbst meldet, auch wenn man wegen USA-Warteliste und Pro/Max-Abo erst einmal nur zuschauen kann."
+      },
+      "source": {
+        "url": "https://claude.com/resources/articles/claude-duet",
+        "name": "Claude"
+      },
+      "tags": [
+        "anthropic",
+        "claude",
+        "agenten"
+      ]
+    },
+    {
+      "id": "mistral-voxtral-3",
+      "category": "studium",
+      "title": "Mistral Voxtral 3: günstige Sprachmodelle für alle EU-Amtssprachen",
+      "summary": "Mistral hat am 20.10.2026 Voxtral 3 veröffentlicht, eine Familie von Sprachmodellen samt Voice-Agent-SDK auf LiveKit-Basis, das Speech-to-Text, Reasoning, Tool-Calling und Text-to-Speech in einer Echtzeit-Pipeline bündelt. Zur Familie gehören Voxtral Small Transcribe 3 mit Sprecher-Diarisierung und Context Biasing, ein günstiges 4B-Batch-Modell, eine Streaming-Variante mit End-of-Turn-Erkennung und Mini TTS 3 mit Voice Cloning. Mistral nennt Transkription in über 50 Sprachen einschließlich aller 24 EU-Amtssprachen, Preise ab 0,0035 US-Dollar pro Minute im Batch-Betrieb und 0,04 US-Dollar pro Minute für die Voice-Agent-API. Die API ist EU-gehostet, Self-Hosting ist möglich. Einordnung: Die Angaben stammen von Mistral selbst, und andere Quellen nennen abweichende Zahlen zur Sprachabdeckung und zur Lizenz, hier lohnt ein Blick in die Doku vor dem Produktivbetrieb.",
+      "relevance": {
+        "studium": "Vorlesungs-, Seminar- und Interviewmitschnitte lassen sich für wenige Cent pro Stunde transkribieren, inklusive Deutsch, Sprechertrennung und Bevorzugung von Fachbegriffen, und bei EU-Hosting oder Self-Hosting bleiben sensible Forschungsdaten kontrollierbar.",
+        "alltag": "Diktieren, Telefonassistenten und Sprach-Automatisierungen werden damit so billig, dass sich eigene kleine Voice-Helfer wirklich lohnen."
+      },
+      "source": {
+        "url": "https://mistral.ai/news/voxtral-3",
+        "name": "Mistral AI"
+      },
+      "tags": [
+        "mistral",
+        "transkription",
+        "voice"
+      ]
+    },
+    {
+      "id": "notion-ai-agents-oktober-2026",
+      "category": "tools",
+      "title": "Notion baut seine Agenten neu: eigener Rechner, 24-Stunden-Aufgaben, Modellrouter",
+      "summary": "Notion hat am 19.10.2026 ein größeres AI-Update ausgeliefert. Die Agenten-Architektur wurde neu gebaut: Agenten bekommen einen eigenen Computer mit Browser, besseres Kontext-Management, einen Review-for-me-Modus mit Sicherheitschecks und können bis zu 24 Stunden an einer Aufgabe arbeiten. Neu ist außerdem Auto, ein Modellrouter, der pro Aufgabe zwischen Qualität, Tempo und Kosten abwägt. Laut Notions eigener Messung erreicht Auto über 20 Alltagsaufgaben ein Niveau wie Opus 5.5 oder Astra bei rund 90 Prozent geringeren Durchschnittskosten, unabhängig überprüft ist das nicht. Dazu kommen ein einheitliches Credit-System, Bring Your Own Key als Enterprise-Alpha, die Anbindung eines eigenen ChatGPT-Plus-, -Pro- oder -Go-Plans und ein verbessertes Notion MCP mit Memory-Sync.",
+      "relevance": {
+        "studium": "Wer das Semester schon in Notion organisiert, kann Rechercheaufgaben, Literaturlisten oder Zusammenfassungen von einem Agenten über Stunden durcharbeiten lassen, statt alles selbst anzustoßen.",
+        "alltag": "Notion ist für viele der realistischste Einstieg in Alltagsautomatisierung, und wer einen eigenen ChatGPT-Plan anbindet, spart sich zusätzliche Credits."
+      },
+      "source": {
+        "url": "https://www.notion.com/releases/2026-10-19",
+        "name": "Notion"
+      },
+      "tags": [
+        "notion",
+        "agenten",
+        "automatisierung"
+      ]
+    }
+  ],
+  "quick_hits": [
+    {
+      "id": "1password-for-agents",
+      "title": "1Password for Agents",
+      "summary": "Stößt ein KI-Agent auf eine Login-Maske, fragt er ein Credential an, man bestätigt in 1Password, und Passwort samt TOTP werden direkt auf der Seite ausgefüllt, ohne dass der Agent das Geheimnis sieht, bisher allerdings nur für Konten auf 1password.com, nicht für 1password.eu.",
+      "source": {
+        "url": "https://1password.com/blog/1password-for-ai-agents",
+        "name": "1Password"
+      },
+      "tags": [
+        "passwoerter",
+        "agenten",
+        "sicherheit"
+      ]
+    },
+    {
+      "id": "chatgpt-locked-chats",
+      "title": "ChatGPT Locked Chats",
+      "summary": "Einzelne ChatGPT-Unterhaltungen lassen sich seit dem 20.10.2026 per vierstelliger PIN oder Face ID sperren und verschwinden dann aus Verlauf und Suche, wobei es keine Ende-zu-Ende-Verschlüsselung gibt und ein PIN-Reset alle gesperrten Chats unwiederbringlich löscht.",
+      "source": {
+        "url": "https://gulfnews.com/technology/companies/chatgpt-now-lets-you-lock-private-chats-with-a-pin-or-face-id-1.500718102",
+        "name": "Gulf News"
+      },
+      "tags": [
+        "chatgpt",
+        "privatsphaere"
+      ]
+    },
+    {
+      "id": "perplexity-computer-lokal-mac",
+      "title": "Perplexity Computer läuft lokal auf dem Mac",
+      "summary": "Perplexitys Agent Computer arbeitet auf Apple-Silicon-Macs jetzt vollständig lokal, sodass Dateien und Reasoning das Gerät nicht verlassen und keine Credits verbraucht werden, empfohlen sind 36 GB Unified Memory und ein Pro-, Max- oder Enterprise-Abo.",
+      "source": {
+        "url": "https://macdailynews.com/2026/10/21/perplexity-computer-now-runs-fully-locally-securely-and-privately-on-mac/",
+        "name": "MacDailyNews"
+      },
+      "tags": [
+        "perplexity",
+        "mac",
+        "datenschutz"
+      ]
+    }
+  ]
+}

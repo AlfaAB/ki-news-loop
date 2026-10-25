@@ -282,6 +282,44 @@
           "source_url": "https://www.producthunt.com/leaderboard/weekly/2026/42"
         }
       ]
+    },
+    {
+      "iso_week": "2026-W43",
+      "sent_date": "2026-10-25",
+      "items": [
+        {
+          "title": "Claude Duet: Anthropic startet proaktiven Agenten als eigene App",
+          "short_id": "anthropic-claude-duet-preview",
+          "source_url": "https://claude.com/resources/articles/claude-duet"
+        },
+        {
+          "title": "Mistral Voxtral 3: günstige Sprachmodelle für alle EU-Amtssprachen",
+          "short_id": "mistral-voxtral-3",
+          "source_url": "https://mistral.ai/news/voxtral-3"
+        },
+        {
+          "title": "Notion baut seine Agenten neu: eigener Rechner, 24-Stunden-Aufgaben, Modellrouter",
+          "short_id": "notion-ai-agents-oktober-2026",
+          "source_url": "https://www.notion.com/releases/2026-10-19"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "1Password for Agents",
+          "short_id": "1password-for-agents",
+          "source_url": "https://1password.com/blog/1password-for-ai-agents"
+        },
+        {
+          "title": "ChatGPT Locked Chats",
+          "short_id": "chatgpt-locked-chats",
+          "source_url": "https://gulfnews.com/technology/companies/chatgpt-now-lets-you-lock-private-chats-with-a-pin-or-face-id-1.500718102"
+        },
+        {
+          "title": "Perplexity Computer läuft lokal auf dem Mac",
+          "short_id": "perplexity-computer-lokal-mac",
+          "source_url": "https://macdailynews.com/2026/10/21/perplexity-computer-now-runs-fully-locally-securely-and-privately-on-mac/"
+        }
+      ]
     }
   ]
 }

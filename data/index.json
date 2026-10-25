@@ -1,7 +1,16 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-18T07:27:13.098Z",
+  "generated_at": "2026-10-25T07:25:55.558Z",
   "weeks": [
+    {
+      "iso_week": "2026-W43",
+      "year": 2026,
+      "week": 43,
+      "sent_date": "2026-10-25",
+      "lead": "Claude Duet: Anthropic startet proaktiven Agenten als eigene App",
+      "item_count": 3,
+      "quick_hit_count": 3
+    },
     {
       "iso_week": "2026-W42",
       "year": 2026,
