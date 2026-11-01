@@ -1,7 +1,16 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-25T07:25:55.558Z",
+  "generated_at": "2026-11-01T07:31:31.570Z",
   "weeks": [
+    {
+      "iso_week": "2026-W44",
+      "year": 2026,
+      "week": 44,
+      "sent_date": "2026-11-01",
+      "lead": "Gemini erstellt und bearbeitet Dateien direkt im Chat",
+      "item_count": 3,
+      "quick_hit_count": 3
+    },
     {
       "iso_week": "2026-W43",
       "year": 2026,

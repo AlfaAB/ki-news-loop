@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "iso_week": "2026-W44",
+  "year": 2026,
+  "week": 44,
+  "sent_date": "2026-11-01",
+  "lead": "Gemini erstellt und bearbeitet Dateien direkt im Chat",
+  "items": [
+    {
+      "id": "gemini-app-dateien-im-chat-bearbeiten",
+      "category": "tools",
+      "title": "Gemini erstellt und bearbeitet Dateien direkt im Chat",
+      "summary": "Google hat am 29. Oktober 2026 freigeschaltet, dass die Gemini-App Dateien direkt im Chat erzeugen, in der Vorschau anzeigen und bearbeiten kann: Dokumente, Tabellen, Präsentationen, PDFs, Markdown, TXT, LaTeX und Code. Dateien lassen sich im Vollbild-Editor öffnen und dort auch manuell tippen, einzelne Textstellen markieren und gezielt von Gemini überarbeiten lassen, statt die ganze Datei neu generieren zu müssen. PDF-Vorschau und -Bearbeitung laufen auf Web und Mobil, die übrigen Formate zunächst nur im Web. Der Rollout gilt laut Google für alle Nutzer in allen Sprachen, in denen die Gemini-App verfügbar ist, also auch ohne Bezahlabo.",
+      "relevance": {
+        "studium": "Hausarbeiten, Abgaben und Präsentationen lassen sich im selben Chat entwerfen und dann punktuell überarbeiten, ohne zwischen Chatbot und Textverarbeitung hin und her zu kopieren.",
+        "alltag": "Auch Papierkram wie PDFs ausfüllen, kürzen oder korrigieren geht jetzt direkt am Handy und ohne Zusatzabo."
+      },
+      "source": {
+        "url": "https://workspaceupdates.googleblog.com/2026/10/create-preview-and-edit-files-directly-in-the-Gemini-app.html",
+        "name": "Google Workspace Updates"
+      },
+      "tags": [
+        "gemini",
+        "pdf",
+        "dokumente"
+      ]
+    },
+    {
+      "id": "gemini-notebook-kostenlose-lehrbuecher",
+      "category": "studium",
+      "title": "Gemini Notebook: hunderte kostenlose Lehrbücher als zitierbare Quelle",
+      "summary": "Gemini Notebook kann ab sofort kostenlose Lehrbücher als Quelle einbinden. Über \"Add sources\" und den neuen Punkt \"Textbooks\" lassen sich Bücher von OpenStax, der Open Textbook Library und S Chand Publishing direkt ins Notebook laden. Antworten sind dann auf das jeweilige Buch geerdet und enthalten klare Inline-Zitate mit direkten Links zurück auf die Originalseiten. Aus den eingebundenen Büchern lassen sich Study Guides, interaktive Übungsquizze und digitale Flashcards erzeugen. Daneben lassen sich weiterhin gekaufte E-Books aus Google Play Books als Quelle nutzen.",
+      "relevance": {
+        "studium": "Statt frei erfundener Literaturangaben bekommt man Antworten, die auf ein echtes Lehrbuch mit nachprüfbarem Seitenverweis zurückgehen, und kann daraus direkt Lernmaterial für die Klausur generieren.",
+        "alltag": "Außerhalb des Studiums eher nischig, hilft aber beim Einarbeiten in jedes Thema, zu dem es ein offenes Lehrbuch gibt."
+      },
+      "source": {
+        "url": "https://www.iphoneincanada.ca/2026/10/29/gemini-notebook-now-has-hundreds-of-free-textbooks-for-students/",
+        "name": "iPhone in Canada"
+      },
+      "tags": [
+        "gemini",
+        "notebook",
+        "lehrbuecher",
+        "zitate"
+      ]
+    },
+    {
+      "id": "chatgpt-icloud-mail-kalender-plugins",
+      "category": "alltag",
+      "title": "ChatGPT verbindet sich mit iCloud Mail und Kalender",
+      "summary": "OpenAI hat am 27. Oktober 2026 Plugins für Apple iCloud Mail und iCloud Kalender freigeschaltet. ChatGPT kann damit das iCloud-Postfach durchsuchen und aufarbeiten sowie Termine im Kalender ansehen und aktualisieren. Die Plugins sind laut 9to5Mac auf allen ChatGPT-Plänen verfügbar, also auch kostenlos, und laufen im Web, auf dem Desktop und unter iOS. Für die Verbindung wird ein app-spezifisches Apple-Passwort benötigt, das man zuvor im Apple-Konto erzeugt.",
+      "relevance": {
+        "studium": "Uni-Mails im iCloud-Postfach lassen sich durchsuchen und zusammenfassen, und Termine wie Abgaben oder Prüfungen kann man per Prompt im Kalender nachsehen und anpassen.",
+        "alltag": "Mail- und Terminverwaltung ist der häufigste Zeitfresser, und die Funktion gibt es ohne Abo direkt in der App, die man ohnehin nutzt."
+      },
+      "source": {
+        "url": "https://9to5mac.com/2026/10/27/icloud-mail-and-calendar-plugins-now-work-with-chatgpt/",
+        "name": "9to5Mac"
+      },
+      "tags": [
+        "chatgpt",
+        "icloud",
+        "kalender",
+        "email"
+      ]
+    }
+  ],
+  "quick_hits": [
+    {
+      "id": "citellm-pdf-belege-pruefen",
+      "title": "CiteLLM",
+      "summary": "Prüft KI-Antworten gegen die eigenen PDFs und verlinkt jedes Ergebnis mit der exakten, im Originaldokument hervorgehobenen Textstelle, kostenlos ausprobierbar.",
+      "source": {
+        "url": "https://citellm.com/",
+        "name": "CiteLLM"
+      },
+      "tags": [
+        "zitate",
+        "pdf",
+        "recherche"
+      ]
+    },
+    {
+      "id": "academic-ancestry-betreuer-stammbaeume",
+      "title": "Academic Ancestry",
+      "summary": "Seite, die aus über sechs Millionen Dissertationen akademische Stammbäume baut und zeigt, wer wen betreut und wer die Arbeiten dazwischen begutachtet hat, nützlich beim Einordnen von Forschungsschulen und beim Finden passender Betreuer.",
+      "source": {
+        "url": "https://academicancestry.org/",
+        "name": "Academic Ancestry"
+      },
+      "tags": [
+        "forschung",
+        "dissertationen",
+        "betreuung"
+      ]
+    },
+    {
+      "id": "github-copilot-fusion-ga",
+      "title": "GitHub Copilot Fusion",
+      "summary": "Statt selbst ein Modell auszuwählen, stellt man in Copilot nur noch eine Effort-Stufe (Standard, High, Max) ein, und Fusion routet den Prompt automatisch an passende Modelle, jetzt allgemein verfügbar in VS Code, der GitHub Copilot App, der Copilot CLI und JetBrains-IDEs.",
+      "source": {
+        "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+        "name": "GitHub Changelog"
+      },
+      "tags": [
+        "copilot",
+        "coding",
+        "github"
+      ]
+    }
+  ]
+}

@@ -320,6 +320,44 @@
           "source_url": "https://macdailynews.com/2026/10/21/perplexity-computer-now-runs-fully-locally-securely-and-privately-on-mac/"
         }
       ]
+    },
+    {
+      "iso_week": "2026-W44",
+      "sent_date": "2026-11-01",
+      "items": [
+        {
+          "title": "Gemini erstellt und bearbeitet Dateien direkt im Chat",
+          "short_id": "gemini-app-dateien-im-chat-bearbeiten",
+          "source_url": "https://workspaceupdates.googleblog.com/2026/10/create-preview-and-edit-files-directly-in-the-Gemini-app.html"
+        },
+        {
+          "title": "Gemini Notebook: hunderte kostenlose Lehrbücher als zitierbare Quelle",
+          "short_id": "gemini-notebook-kostenlose-lehrbuecher",
+          "source_url": "https://www.iphoneincanada.ca/2026/10/29/gemini-notebook-now-has-hundreds-of-free-textbooks-for-students/"
+        },
+        {
+          "title": "ChatGPT verbindet sich mit iCloud Mail und Kalender",
+          "short_id": "chatgpt-icloud-mail-kalender-plugins",
+          "source_url": "https://9to5mac.com/2026/10/27/icloud-mail-and-calendar-plugins-now-work-with-chatgpt/"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "CiteLLM",
+          "short_id": "citellm-pdf-belege-pruefen",
+          "source_url": "https://citellm.com/"
+        },
+        {
+          "title": "Academic Ancestry",
+          "short_id": "academic-ancestry-betreuer-stammbaeume",
+          "source_url": "https://academicancestry.org/"
+        },
+        {
+          "title": "GitHub Copilot Fusion",
+          "short_id": "github-copilot-fusion-ga",
+          "source_url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/"
+        }
+      ]
     }
   ]
 }
