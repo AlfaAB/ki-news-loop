@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "iso_week": "2026-W46",
+  "year": 2026,
+  "week": 46,
+  "sent_date": "2026-11-15",
+  "lead": "Anthropic veröffentlicht Claude Fable 5.2 und Mythos 5.2",
+  "items": [
+    {
+      "id": "anthropic-claude-fable-5-2",
+      "category": "tools",
+      "title": "Anthropic veröffentlicht Claude Fable 5.2 und Mythos 5.2",
+      "summary": "Anthropic hat am 9. November zwei neue Spitzenmodelle vorgestellt: Fable 5.2 ist allgemein verfügbar, Mythos 5.2 nutzt dasselbe Basismodell mit weniger Guardrails und bleibt verifizierten Organisationen aus Cyber und Life Sciences vorbehalten. Der Preis liegt bei 8 US-Dollar pro Million Input-Tokens und 40 US-Dollar pro Million Output-Tokens, ein optionaler Fast Mode kostet 16/80 US-Dollar und erzeugt Tokens bis zu 2,5-mal schneller. Verfügbar ist das Modell über die API (claude-fable-5-2) sowie auf AWS, Google Cloud und Azure. Gegenüber Opus 5.5 nennt Anthropic deutliche Sprünge, etwa 74,6 statt 58,7 Prozent auf Terminal-Bench-Science 0.1 und 73,4 statt 64,4 Prozent bei Chartography, also beim Lesen von Diagrammen. Als wissenschaftliches Highlight führt Anthropic an, dass rund 1.000 Fable-5.2-Agenten Fermats letzten Satz in etwa 30 Stunden in Lean formalisierten, während Opus 5.5 in 18 Stunden auf 26 Prozent kam. Eine Fußnote relativiert das allerdings: Die Agenten bekamen 60 vorgegebene Statements, eine Beweisskizze, Definitionen, 47 bereits bewiesene Lemmata und feste Rollen mitgeliefert.",
+      "relevance": {
+        "studium": "Der Sprung bei Chartography und wissenschaftlichen Aufgaben betrifft genau das, was im Studium oft hängt: Abbildungen und Datentabellen aus Papern korrekt auswerten, Rechnungen nachvollziehen, Beweise prüfen. Anthropic selbst erwähnt Studium oder Bildung in der Ankündigung nicht, das ist Einordnung.",
+        "alltag": "Wer eigene kleine Automatisierungen oder Coding-Agenten über die API baut, bekommt für denselben Preis ein stärkeres Modell; wer Claude nur im Chat nutzt, merkt vorerst wenig davon."
+      },
+      "source": {
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "name": "Anthropic"
+      },
+      "tags": [
+        "anthropic",
+        "claude",
+        "modelle"
+      ]
+    },
+    {
+      "id": "harvard-ai-learning-matrix",
+      "category": "studium",
+      "title": "Harvard AI Learning Matrix: Orientierung, wann KI beim Lernen hilft",
+      "summary": "Die Compass Collaborative an der Harvard Graduate School of Education hat in der Woche vom 12. November das frei zugängliche Tool \"AI Guidance by Age\" veröffentlicht (compass.gse.harvard.edu/explore/). Grundlage ist die Auswertung von über 5.000 Studien aus Pädagogik, Psychologie und Entwicklungsforschung, vieles davon älter als generative KI, weil unabhängige Forschung zu KI-Lerntools laut den Macherinnen noch dünn ist. Man wählt eine von neun Rollen (darunter Student), eine Entwicklungsdomäne (etwa Sprache, Reasoning und Metakognition, Kreativität, Motivation) und eine Altersgruppe (etwa 18 bis 25) und erhält empfohlene KI-Nutzungen sowie konkrete Mechanismen, wo KI hilft und wo sie schadet. Für die Hochschullehre bei 18- bis 25-Jährigen heißt es zum Beispiel, KI solle \"widen what a young adult reads\", während Komposition und Problemlösen beim Menschen bleiben. Laut der Methodik-Seite des Tools ist jeder Eintrag ausdrücklich als \"a hypothesis, not a firm finding\" gekennzeichnet, und der Fokus liegt auf neurotypischen Lernenden unter 40 aus Global-North-Kontexten.",
+      "relevance": {
+        "studium": "Ein kostenloses Nachschlagewerk, mit dem man für die eigene Rolle und Altersgruppe durchgehen kann, welche KI-Nutzung das Lernen stützt und welche es aushöhlt, statt nach Bauchgefühl zu entscheiden.",
+        "alltag": "Die Hilft-/Schadet-Logik lässt sich auf eigene Lern- und Arbeitsroutinen außerhalb der Uni übertragen, ist aber eher ein Nachdenk-Werkzeug als ein Alltagshelfer."
+      },
+      "source": {
+        "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/12/new-ai-learning-matrix-brings-nuance-wild",
+        "name": "Inside Higher Ed"
+      },
+      "tags": [
+        "lernen",
+        "harvard",
+        "studie"
+      ]
+    },
+    {
+      "id": "gemini-intelligence-november-2026",
+      "category": "alltag",
+      "title": "Gemini Intelligence: Diktat, eigene Widgets und Geräte-Hilfe auf Android",
+      "summary": "Google hat sein November-Feature-Paket für Gemini Intelligence auf Android ausgerollt. \"Rambler\" verwandelt gesprochene Gedanken direkt in Gboard in sauber formatierten Text, \"Create My Widget\" baut per Prompt eigene Homescreen-Widgets, etwa ein Reise-Dashboard oder einen Ausgaben-Tracker mit Daten aus Gmail, Kalender und Suche, und \"Device Assistance\" räumt Speicher auf und prüft App-Berechtigungen. Die app-übergreifende Task-Automatisierung (Essen bestellen, Fahrt rufen, Tisch reservieren) wird auf Großbritannien, Indien und Japan ausgeweitet, ist in Deutschland also weiterhin nicht verfügbar. Gemini Intelligence läuft bereits seit dem Sommer auf Pixel 11 sowie auf Samsung Galaxy S26, Z Fold8 und Z Flip8; die Pixel-10er-Reihe bekommt die neuen Funktionen mit dem November-Pixel-Drop, und das Motorola signature 27 ist das erste Motorola-Gerät mit Gemini Intelligence (US-Vorbestellung ab 19. November). \"Device Assistance\" setzt Android 17 oder neuer auf ausgewählten Geräten voraus, und Rambler ist je nach Land und Sprache unterschiedlich verfügbar.",
+      "relevance": {
+        "studium": "Rambler ist im Prinzip eine eingebaute Diktierfunktion im System-Keyboard, praktisch für Notizen nach der Vorlesung oder erste Textentwürfe unterwegs, sofern das eigene Gerät und die eigene Sprache schon unterstützt werden.",
+        "alltag": "Selbstgebaute Widgets und automatisches Aufräumen von Speicher und Berechtigungen nehmen typisches Handy-Housekeeping ab, allerdings nur auf den unterstützten Geräten und mit Android 17 oder neuer."
+      },
+      "source": {
+        "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+        "name": "Google Blog"
+      },
+      "tags": [
+        "gemini",
+        "android",
+        "diktat"
+      ]
+    }
+  ],
+  "quick_hits": [
+    {
+      "id": "google-labs-tabletop",
+      "title": "Google Labs Tabletop",
+      "summary": "Geteilter Raum, in dem man Links, Dateien und Ideen ablegt und per \"@tabletop\"-Prompt ein gemeinsam bearbeitbares Planungs-Tool daraus bauen lässt, etwa Reise-Itinerar, Kosten-Splitter oder Abendessen-Umfrage; Start als Warteliste in den USA, für hier also erst einmal ein Blick nach vorn.",
+      "source": {
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+        "name": "Google Blog"
+      },
+      "tags": [
+        "planung",
+        "gruppen",
+        "google labs"
+      ]
+    },
+    {
+      "id": "nameshot-screenshot-renamer",
+      "title": "Nameshot",
+      "summary": "Mac-Menüleisten-App, die jedem neuen Screenshot ein bis zwei Sekunden nach der Aufnahme einen beschreibenden Dateinamen gibt, komplett offline über Apples On-Device-Modell und ohne Account; sieben Tage gratis testbar, danach Einmalkauf ab 4,99 US-Dollar, Voraussetzung ist ein Apple-Silicon-Mac.",
+      "source": {
+        "url": "https://www.ithinkdiff.com/nameshot-app-renames-mac-screenshots/",
+        "name": "iThinkDiff"
+      },
+      "tags": [
+        "mac",
+        "screenshots",
+        "offline"
+      ]
+    },
+    {
+      "id": "gemini-app-carplay",
+      "title": "Gemini-App für Apple CarPlay",
+      "summary": "Seit 11. November startet die Gemini-App weltweit in mehreren Sprachen auf CarPlay: Gespräche laufen über das Auto-Display, synchronisieren mit der iPhone-App und können auf Gmail und Google Kalender zugreifen, etwa für ein kurzes Daily Brief auf dem Weg zur Uni.",
+      "source": {
+        "url": "https://www.macrumors.com/2026/11/11/google-gemini-apple-carplay/",
+        "name": "MacRumors"
+      },
+      "tags": [
+        "gemini",
+        "carplay",
+        "auto"
+      ]
+    }
+  ]
+}

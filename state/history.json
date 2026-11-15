@@ -396,6 +396,44 @@
           "source_url": "https://9to5mac.com/2026/11/06/raycast-combines-voice-dictation-and-screen-awareness-in-new-ai-feature/"
         }
       ]
+    },
+    {
+      "iso_week": "2026-W46",
+      "sent_date": "2026-11-15",
+      "items": [
+        {
+          "title": "Anthropic veröffentlicht Claude Fable 5.2 und Mythos 5.2",
+          "short_id": "anthropic-claude-fable-5-2",
+          "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+        },
+        {
+          "title": "Harvard AI Learning Matrix: Orientierung, wann KI beim Lernen hilft",
+          "short_id": "harvard-ai-learning-matrix",
+          "source_url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2026/11/12/new-ai-learning-matrix-brings-nuance-wild"
+        },
+        {
+          "title": "Gemini Intelligence: Diktat, eigene Widgets und Geräte-Hilfe auf Android",
+          "short_id": "gemini-intelligence-november-2026",
+          "source_url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "Google Labs Tabletop",
+          "short_id": "google-labs-tabletop",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/"
+        },
+        {
+          "title": "Nameshot",
+          "short_id": "nameshot-screenshot-renamer",
+          "source_url": "https://www.ithinkdiff.com/nameshot-app-renames-mac-screenshots/"
+        },
+        {
+          "title": "Gemini-App für Apple CarPlay",
+          "short_id": "gemini-app-carplay",
+          "source_url": "https://www.macrumors.com/2026/11/11/google-gemini-apple-carplay/"
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,16 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-08T07:26:14.179Z",
+  "generated_at": "2026-11-15T07:30:23.840Z",
   "weeks": [
+    {
+      "iso_week": "2026-W46",
+      "year": 2026,
+      "week": 46,
+      "sent_date": "2026-11-15",
+      "lead": "Anthropic veröffentlicht Claude Fable 5.2 und Mythos 5.2",
+      "item_count": 3,
+      "quick_hit_count": 3
+    },
     {
       "iso_week": "2026-W45",
       "year": 2026,
