@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "iso_week": "2026-W47",
+  "year": 2026,
+  "week": 47,
+  "sent_date": "2026-11-22",
+  "lead": "OpenAI veröffentlicht GPT-6.2 Astra und GPT-6.2 Sol",
+  "items": [
+    {
+      "id": "openai-gpt-6-2-astra-sol",
+      "category": "tools",
+      "title": "OpenAI veröffentlicht GPT-6.2 Astra und GPT-6.2 Sol",
+      "summary": "OpenAI hat diese Woche zwei neue Modelle gestartet: GPT-6.2 Astra als Spitzenmodell für die schwersten Aufgaben (Slides, Spreadsheets, Dokumente, Coding, Wissenschaft) und GPT-6.2 Sol als effizientes Alltagsmodell. Im Benchmark GDPval v2 liegt Astra laut OpenAI 6,2 Prozentpunkte über GPT-6 Astra und braucht dabei 22% weniger Output-Tokens; die API-Preise für Astra sinken um 20% auf 8 Dollar Input und 40 Dollar Output pro Million Tokens, Sol bleibt bei 2 bzw. 10 Dollar. Beide Modelle sind für Plus, Pro, Enterprise und Edu in ChatGPT, ChatGPT Work und Codex verfügbar, per API als gpt-6.2-astra und gpt-6.2-sol. Neu ist außerdem ein Ultrafast-Modus, der allerdings nur für Pro, nach Admin-Freigabe für Enterprise und Edu sowie über die API bereitsteht. OpenAI weist selbst darauf hin, dass beide Modelle im Preparedness Framework die Critical-Schwelle für Cybersecurity erreichen und Astra zusätzlich die High-Schwelle für KI-Selbstverbesserung.",
+      "relevance": {
+        "studium": "Das Standardmodell im ChatGPT-Alltag und in Codex wird ersetzt, inklusive Edu-Tarif, also ändert sich die Qualität bei Recherche, Code und Dokumenten ohne eigenes Zutun.",
+        "alltag": "Wer eigene kleine Automatisierungen über die API baut, zahlt für das Spitzenmodell erstmals deutlich weniger. Der schnellere Ultrafast-Modus ist dagegen nichts für den Plus-Tarif, sondern nur für Pro, freigeschaltete Enterprise- und Edu-Konten und die API."
+      },
+      "source": {
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+        "name": "OpenAI"
+      },
+      "tags": [
+        "openai",
+        "chatgpt",
+        "modelle",
+        "codex"
+      ]
+    },
+    {
+      "id": "openai-chatgpt-academic-researchers-grants",
+      "category": "studium",
+      "title": "ChatGPT for Academic Researchers: Bewerbungen für bis zu 200.000 Forschende öffnen",
+      "summary": "OpenAI skaliert sein akademisches Programm deutlich und vergibt 50.000 neue Grants nach dem Prinzip first come, first served, also ausdrücklich nicht per Losverfahren. Jeder Grant deckt die antragstellende Person plus bis zu zwei Mitarbeitende mit kostenlosem ChatGPT Plus ab, in dieser Runde also bis zu 150.000 Personen, das Ziel sind 200.000 weltweit. Die Bewerbungen öffnen am Montag, 23.11.2026. Enthalten sind laut OpenAI kostenloses ChatGPT Plus, Zugang zu den aktuellen Spitzenmodellen und Trainings, und Programmdaten werden standardmäßig nicht fürs Modelltraining genutzt. Dass es in dieser Runde Plus statt Pro gibt wie im Pilotprojekt, begründet OpenAI damit, dass die meisten Teilnehmenden innerhalb der Plus-Limits geblieben wären. Separat davon kündigt OpenAI 5 Millionen US-Dollar für eine Mathematik-Initiative der Simons Foundation, den Rosalind Academic Plan für US-Unilabore und das Angebot GPT-Rosalind an, für das eine eigene Trusted-Access-Freigabe nötig ist.",
+      "relevance": {
+        "studium": "Wer an einer Hochschule forscht oder in einem Labor mitarbeitet, kann sich ab dem 23.11. um kostenlosen ChatGPT-Plus-Zugang samt Trainings bewerben, und zwar bevorzugt früh, weil die Grants in der Reihenfolge der Bewerbungen vergeben werden.",
+        "alltag": "Ein kostenloser Plus-Zugang hilft auch außerhalb der Forschung bei allem, was man ohnehin mit ChatGPT macht, ansonsten eher nischig für den Alltag."
+      },
+      "source": {
+        "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
+        "name": "OpenAI"
+      },
+      "tags": [
+        "openai",
+        "chatgpt",
+        "forschung",
+        "grants"
+      ]
+    },
+    {
+      "id": "gemini-notebook-interactive-sites",
+      "category": "studium",
+      "title": "Gemini Notebook baut interaktive Websites aus eigenen Quellen",
+      "summary": "Google Labs hat in Gemini Notebook, dem früheren NotebookLM, die Funktion Interactive Sites eingeführt. Mit einem Prompt wie \"make me a site\" plus einer Beschreibung erzeugt das Notebook aus den hochgeladenen Quellen eine klickbare Website, etwa interaktive Lernhilfen wie ein Periodensystem oder eine historische Zeitleiste, Daten-Dashboards oder Projekt- und Deadline-Tracker. Fertige Seiten lassen sich über \"Open in a new tab\" öffnen oder teilen. Der Rollout läuft seit dem 16.11.2026 global im Web für Nutzer ab 18 Jahren, auch in Google Workspace; eine Version für die Mobile-App ist angekündigt.",
+      "relevance": {
+        "studium": "Aus einer Sammlung von Skripten und Papern entsteht in einem Prompt eine interaktive Lernseite oder Visualisierung, was für Prüfungsvorbereitung, Seminarpräsentationen und Projektorganisation direkt nutzbar ist.",
+        "alltag": "Die gleiche Funktion taugt für private Projekte, etwa einen klickbaren Überblick oder Deadline-Tracker aus eigenen Dokumenten, ohne dass man selbst eine Website bauen muss."
+      },
+      "source": {
+        "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites",
+        "name": "Google Blog"
+      },
+      "tags": [
+        "gemini",
+        "notebooklm",
+        "lernen",
+        "visualisierung"
+      ]
+    }
+  ],
+  "quick_hits": [
+    {
+      "id": "chatgpt-live-dictation",
+      "title": "ChatGPT Live Dictation",
+      "summary": "ChatGPT wandelt Gesprochenes seit dem 18.11. schon während des Sprechens in Text um und kennt kein 10-Minuten-Limit mehr, ausgerollt weltweit auf iOS, Android, Web und Desktop in allen Tarifen inklusive Free, womit lange Gedankengänge diktiert statt getippt werden können.",
+      "source": {
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "name": "OpenAI Help Center"
+      },
+      "tags": [
+        "chatgpt",
+        "diktieren",
+        "voice-to-text"
+      ]
+    },
+    {
+      "id": "bluedot-phone-calls",
+      "title": "Bluedot Phone Calls",
+      "summary": "Der bot-freie Notetaker Bluedot hat am 18.11. einen KI-Mitschreiber für normale Telefonate gelauncht, der Transkript und Zusammenfassung liefert, praktisch für Gespräche mit Arzt, Versicherung, Handwerker oder Behörde.",
+      "source": {
+        "url": "https://www.producthunt.com/products/bluedot-2/launches/bluedot-phone-calls",
+        "name": "Product Hunt"
+      },
+      "tags": [
+        "telefonate",
+        "transkription",
+        "notizen"
+      ]
+    },
+    {
+      "id": "canva-generative-ai-ausschalter",
+      "title": "Canva bekommt einen KI-Aus-Schalter",
+      "summary": "Seit dem 19.11. können Canva-Nutzer in kostenlosen und bezahlten Accounts unter Profil, Settings, Permissions die Option \"Enable generative AI features\" ausschalten und damit Magic Write, Magic Design, Magic Edit, Magic Expand, Magic Layers, Canva Code und AI Shapes aus der Oberfläche entfernen; unter Profil, Your Account, AI Personalization lassen sich zusätzlich menschengemachte Inhalte in den Suchergebnissen priorisieren.",
+      "source": {
+        "url": "https://petapixel.com/2026/11/19/canva-now-lets-users-turn-off-generative-ai-features/",
+        "name": "PetaPixel"
+      },
+      "tags": [
+        "canva",
+        "einstellungen",
+        "design"
+      ]
+    }
+  ]
+}

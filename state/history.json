@@ -434,6 +434,44 @@
           "source_url": "https://www.macrumors.com/2026/11/11/google-gemini-apple-carplay/"
         }
       ]
+    },
+    {
+      "iso_week": "2026-W47",
+      "sent_date": "2026-11-22",
+      "items": [
+        {
+          "title": "OpenAI veröffentlicht GPT-6.2 Astra und GPT-6.2 Sol",
+          "short_id": "openai-gpt-6-2-astra-sol",
+          "source_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+        },
+        {
+          "title": "ChatGPT for Academic Researchers: Bewerbungen für bis zu 200.000 Forschende öffnen",
+          "short_id": "openai-chatgpt-academic-researchers-grants",
+          "source_url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/"
+        },
+        {
+          "title": "Gemini Notebook baut interaktive Websites aus eigenen Quellen",
+          "short_id": "gemini-notebook-interactive-sites",
+          "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites"
+        }
+      ],
+      "quick_hits": [
+        {
+          "title": "ChatGPT Live Dictation",
+          "short_id": "chatgpt-live-dictation",
+          "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        },
+        {
+          "title": "Bluedot Phone Calls",
+          "short_id": "bluedot-phone-calls",
+          "source_url": "https://www.producthunt.com/products/bluedot-2/launches/bluedot-phone-calls"
+        },
+        {
+          "title": "Canva bekommt einen KI-Aus-Schalter",
+          "short_id": "canva-generative-ai-ausschalter",
+          "source_url": "https://petapixel.com/2026/11/19/canva-now-lets-users-turn-off-generative-ai-features/"
+        }
+      ]
     }
   ]
 }
